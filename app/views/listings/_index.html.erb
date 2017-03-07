@@ -1,0 +1,38 @@
+<% @listings.each do |listing| %>
+<tr>
+     <td>
+      <%= listing.name %>
+      <% if listing.visible %>
+          <i class="fa fa-eye fa-fw" aria-hidden="true"></i>
+      <% else %>
+          <i class="fa fa-eye-slash fa-fw" aria-hidden="true"></i>
+      <% end %> 
+    </td>  
+    <td>
+      <%= number_to_currency(listing.orig_price, 
+        :unit => "INR", :format => "%u %n") %>      
+    </td>
+    <td>
+      <%= number_to_currency(listing.curr_price, 
+        :unit => "INR", :format => "%u %n") %>    
+    </td>
+    <td>
+      <%= link_to(listing_path(listing,:product_id => @product.id), 
+          :remote => true, 
+          :class => "btn btn-info btn-circle") do %>
+          <i class="fa fa-flag fa-fw" aria-hidden="true"></i> 
+      <% end %>  
+      <%= link_to(edit_listing_path(listing, :product_id => @product.id), 
+          :remote => true, 
+          :class => "btn btn-success btn-circle") do %>
+          <i class="fa fa-edit fa-fw" aria-hidden="true"></i> 
+      <% end %>  
+      <%= link_to(delete_listing_path(listing,:product_id => @product.id), 
+          :remote => true, 
+          :class => "btn btn-danger btn-circle") do %>
+          <i class="fa fa-trash-o fa-fw" aria-hidden="true"></i> 
+      <% end %>       
+    </td>
+</tr>
+<% end %>
+

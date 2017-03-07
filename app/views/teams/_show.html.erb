@@ -1,0 +1,63 @@
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      <h3 class="text-info"><%= @team.name %></h3>
+    </div>
+    <div class="modal-body">
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <%= @team.title %>
+          </div> <!-- /.panel-heading -->      
+          <div class="panel-body">
+              <!-- Nav tabs -->
+              <ul class="nav nav-pills">
+                  <li class="active">
+                    <a href="#photo-pills" data-toggle="tab">Photo</a>
+                  </li>
+                  <li>
+                    <a href="#desc-pills" data-toggle="tab">Description</a>
+                  </li>
+                  <li>
+                    <a href="#con-pills" data-toggle="tab">Contact</a>
+                  </li>
+                  <li>
+                    <a href="#oth-pills" data-toggle="tab">Social</a>
+                  </li>
+              </ul>
+              <!-- Tab panes -->
+              <div class="tab-content">
+                  <div class="tab-pane fade in active" id="photo-pills">
+                    <div class="well text-center">
+                      <%= avatar_for(@team) %>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="desc-pills">
+                    <div class="well">
+                      <p><%= @team.description %></p>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="con-pills">
+                    <div class="well">
+                      <p><%= @team.email %></p>
+                      <p><%= @team.cell_phone %></p>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="oth-pills">
+                    <div class="well">
+                      <p><%= @team.google %></p>
+                      <p><%= @team.facebook %></p>
+                      <p><%= @team.twitter %></p>
+                      <p><%= @team.linkedin %></p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <!-- /.panel-body -->
+      </div>
+    </div>
+    <div class="modal-footer">
+      <%= link_to "Close", "#", class: "btn btn-secondary", data: {dismiss: "modal"} %>
+    </div>
+  </div>
+</div>

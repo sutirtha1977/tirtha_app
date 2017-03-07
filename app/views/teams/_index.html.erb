@@ -1,0 +1,25 @@
+<% @teams.each do |team| %>
+<tr>
+    <td><%= team.first_name %></td>
+    <td><%= team.last_name %></td>
+    <td><%= mail_to(team.email) %></td>
+    <td>
+        <%= link_to(team_path(team), 
+            :remote => true, 
+            :class => "btn btn-info btn-circle") do %>
+            <i class="fa fa-flag fa-fw" aria-hidden="true"></i> 
+        <% end %>  
+        <%= link_to(edit_team_path(team), 
+            :remote => true, 
+            :class => "btn btn-success btn-circle") do %>
+            <i class="fa fa-edit fa-fw" aria-hidden="true"></i> 
+        <% end %>  
+        <%= link_to(delete_team_path(team), 
+            :remote => true,
+            :class => "btn btn-danger btn-circle") do %>
+            <i class="fa fa-trash-o fa-fw" aria-hidden="true"></i> 
+        <% end %>        
+    </td>
+</tr>
+<% end %>
+

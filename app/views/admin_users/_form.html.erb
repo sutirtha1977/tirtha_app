@@ -1,0 +1,35 @@
+<%= form_for @admin_user, remote: true, html: { style: "display:inline;" } do |f| %>
+<%= error_messages_for(f.object) %>
+<div class="modal-body">   
+    <div class="row">
+        <div class="col-sm-6" style="padding-bottom: 10px;">
+            <%= f.text_field(:first_name, class: 'text-cp form-control', placeholder: 'Firstname') %>
+        </div>
+        <div class="col-sm-6" style="padding-bottom: 10px;">
+            <%= f.text_field(:last_name, class: 'text-cp form-control', placeholder: 'Lastname') %>
+        </div> 
+        <div class="2 col-sm-12" style="padding-bottom: 10px;">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                <%= f.email_field(:email, class: 'text-dn form-control', placeholder: 'E-mail') %>
+            </div> 
+        </div> 
+        <div class="col-sm-6" style="padding-bottom: 10px;">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                <%= f.text_field(:username, class: 'text-dn form-control', placeholder: 'username') %>
+            </div>
+        </div>
+        <div class="col-sm-6" style="padding-bottom: 10px;">
+            <%= f.password_field(:password, class: 'form-control', id: 'password', placeholder: 'password') %>
+        </div>
+    </div>
+</div>
+<div class="modal-footer">
+    <%= link_to "Close", "#", class: "btn btn-secondary", data: {dismiss: "modal"} %>
+    <%= f.submit "Submit" ,class: "btn btn-primary" %>
+</div>
+<% end %>
+
+
+  
