@@ -1,6 +1,10 @@
 #team { 
-	background-color:#f6f6f6;
-	padding-top: 70px;
+	// background-color: #E4D29D;
+	// background-image: linear-gradient(to bottom, #E4D29D, #CDAE50);
+	@include background-image(linear-gradient(top, $yellow, $orange));
+	//@include background-image(linear-gradient(top, darken($purple, 20), $green));
+
+
 	.title-one {
 		color: $blue;
 	}
@@ -8,86 +12,78 @@
 		font-weight: $normal;
 		color: $blue;
 	}
-	.team-leader-block{
-		max-width:993px;
-		margin:0 auto;
-		.team-leader-box{
-			// width:30.66%;
-			// margin-right: 3.82979%;
-			height: 490px;
-			overflow: hidden;
-			text-align: center;
-			// float: left;
-			span{
-				margin-bottom:24px;
-				display:block;
-			}
-			&:nth-of-type(3n+0){ margin:0;}
-			.team-leader{
-				width:auto;
-				height:auto;
-				position:relative;
-				border-radius:50%;
-				// box-shadow:0px 0px 0px 7px rgba(241,241,241,0.80);
-				margin:7px 7px 25px 7px;
-				&:hover .team-leader-shadow{
-					box-shadow:inset  0px 0px 0px 148px rgba(17,17,17,0.80);
-				}
-				&:hover ul{ display:block; opacity:1}
-				img{
-					display:block;
-					border-radius:50%;
-					align: center;
-				}
-				ul{
-					display:block;
-					opacity:0;
-					padding:0;
-					margin:0;
-					list-style:none;
-					position:absolute;
-					left:0;
-					top:50%;
-					width:100%;
-					text-align:center;
-					margin-top:-14px;
-					z-index:15;
-					transition:all 0.6s ease-in-out;
-					-moz-transition:all 0.6s ease-in-out;
-					-webkit-transition:all 0.6s ease-in-out;
-					li{
-						display:inline;
-						margin:0 11px;
-						a{
-							font-family: 'FontAwesome';
-							display:inline-block;
-							font-size:28px;
-							color:#fff;	
-							transition:all 0.3s ease-in-out;
-							-moz-transition:all 0.3s ease-in-out;
-							-webkit-transition:all 0.3s ease-in-out;
-							&:hover, &:focus{
-								text-decoration:none;
-							}
-						}
-						a.fa-twitter:hover{
-							color:#55acee;
-						}
-						a.fa-facebook:hover{
-							color:#3b5998;
-						}
-						a.fa-pinterest:hover{
-							color:#cb2026;
-						}
-						a.fa-google:hover{
-							color:#dd4b39;
-						}
-					}
-				}
-			}
+
+	.member {
+	  	margin: 10px 0;
+		h3 {
+		  font-weight: $bold;
+		  font-size: 1.2em;
+		  color: $dark;
+		  // padding-bottom: 5px;
+		}
+		h4 {
+			color: $dark;
+			font-size: 1em;
+			padding-bottom: 5px; 
+		}
+		p {
+		  font-size: .8em;
+		  font-weight: $normal;
+		}
+		img {
+			height: 100%;
+		  	width: 100%;
 		}
 	}
+	.socials i {
+		background-color:#fff;
+		border-radius: 50%;
+		color: #43484E;
+		display: inline-block;
+		font-size:16px;
+		height: 30px;
+		line-height:28px;
+		margin-right: 5px;
+		text-align: center;
+		width: 30px;
+		border-width:1px;
+		border-color:#43484E;
+		border-style: solid;
+		opacity:.5;
+		 -webkit-transition: all 0.5s ease-in-out;
+		-moz-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;  
+	}
+
+	a {
+		i:hover {
+			opacity:1;
+			color:#fff;
+			border:0
+		}
+		.fa-facebook:hover {
+			background: #3B5997;	
+		}
+
+		.fa-twitter:hover {
+		  background:#29C5F6
+		}
+
+		.fa-linkedin:hover {
+		  background:#006DC0
+		}
+
+		.fa-google:hover {
+		  background:#D13D2F
+		}
+
+	}
+
+
+
 }
+
 
 
 

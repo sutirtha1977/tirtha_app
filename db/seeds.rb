@@ -838,10 +838,10 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	:cell_phone => "+91 9876543210",
-	:google => "www.google.com",
-	:facebook => "www.facebook.com",
-	:twitter => "www.twitter.com",
-	:linkedin => "www.linkedin.com"
+	:google => "https://www.google.com",
+	:facebook => "https://www.facebook.com",
+	:twitter => "https://www.twitter.com",
+	:linkedin => "https://www.linkedin.com"
 	)
 
 puts "Member 2"
@@ -856,10 +856,10 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non",
 	:cell_phone => 9876543210,
-	:google => "www.google.com",
-	:facebook => "www.facebook.com",
-	:twitter => "www.twitter.com",
-	:linkedin => "www.linkedin.com"
+	:google => "https://www.google.com",
+	:facebook => "https://www.facebook.com",
+	:twitter => "https://www.twitter.com",
+	:linkedin => "https://www.linkedin.com"
 	)
 
 puts "Member 3"
@@ -875,10 +875,10 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	:cell_phone => "+91 9876543210",
-	:google => "www.google.com",
-	:facebook => "www.facebook.com",
-	:twitter => "www.twitter.com",
-	:linkedin => "www.linkedin.com"
+	:google => "https://www.google.com",
+	:facebook => "https://www.facebook.com",
+	:twitter => "https://www.twitter.com",
+	:linkedin => "https://www.linkedin.com"
 	)
 
 puts "Member 4"
@@ -894,10 +894,10 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	:cell_phone => "+91 9876543210",
-	:google => "www.google.com",
-	:facebook => "www.facebook.com",
-	:twitter => "www.twitter.com",
-	:linkedin => "www.linkedin.com"
+	:google => "https://www.google.com",
+	:facebook => "https://www.facebook.com",
+	:twitter => "https://www.twitter.com",
+	:linkedin => "https://www.linkedin.com"
 	)
 
 puts "Member 5"
@@ -913,10 +913,10 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	:cell_phone => "+91 9876543210",
-	:google => "www.google.com",
-	:facebook => "www.facebook.com",
-	:twitter => "www.twitter.com",
-	:linkedin => "www.linkedin.com"
+	:google => "https://www.google.com",
+	:facebook => "https://www.facebook.com",
+	:twitter => "https://www.twitter.com",
+	:linkedin => "https://www.linkedin.com"
 	)
 
 puts "Member 6"
@@ -932,10 +932,10 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	:cell_phone => "+91 9876543210",
-	:google => "www.google.com",
-	:facebook => "www.facebook.com",
-	:twitter => "www.twitter.com",
-	:linkedin => "www.linkedin.com"
+	:google => "https://www.google.com",
+	:facebook => "https://www.facebook.com",
+	:twitter => "https://www.twitter.com",
+	:linkedin => "https://www.linkedin.com"
 	)
 
 puts "Member 7"
@@ -951,10 +951,10 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	:cell_phone => "+91 9876543210",
-	:google => "www.google.com",
-	:facebook => "www.facebook.com",
-	:twitter => "www.twitter.com",
-	:linkedin => "www.linkedin.com"
+	:google => "https://www.google.com",
+	:facebook => "https://www.facebook.com",
+	:twitter => "https://www.twitter.com",
+	:linkedin => "https://www.linkedin.com"
 	)
 
 puts "Member 8"
@@ -970,10 +970,10 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	:cell_phone => "+91 9876543210",
-	:google => "www.google.com",
-	:facebook => "www.facebook.com",
-	:twitter => "www.twitter.com",
-	:linkedin => "www.linkedin.com"
+	:google => "https://www.google.com",
+	:facebook => "https://www.facebook.com",
+	:twitter => "https://www.twitter.com",
+	:linkedin => "https://www.linkedin.com"
 	)
 
 puts "Member 9"
@@ -989,10 +989,10 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	:cell_phone => "+91 9876543210",
-	:google => "www.google.com",
-	:facebook => "www.facebook.com",
-	:twitter => "www.twitter.com",
-	:linkedin => "www.linkedin.com"
+	:google => "https://www.google.com",
+	:facebook => "https://www.facebook.com",
+	:twitter => "https://www.twitter.com",
+	:linkedin => "https://www.linkedin.com"
 	)
 
 puts "Member 10"
@@ -1008,32 +1008,13 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	:cell_phone => "+91 9876543210",
-	:google => "www.google.com",
-	:facebook => "www.facebook.com",
-	:twitter => "www.twitter.com",
-	:linkedin => "www.linkedin.com"
+	:google => "https://www.google.com",
+	:facebook => "https://www.facebook.com",
+	:twitter => "https://www.twitter.com",
+	:linkedin => "https://www.linkedin.com"
 	)
 
-puts "Member 11"
-Team.create(
-	:first_name => "Tapas",
-	:last_name => "Das",
-	:title => "Astrologer",
-	:email => "tapas@test.com",
-	:description => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	:cell_phone => "+91 9876543210",
-	:google => "www.google.com",
-	:facebook => "www.facebook.com",
-	:twitter => "www.twitter.com",
-	:linkedin => "www.linkedin.com"
-	)
 
-puts "Creating Team END"
 
 
 
