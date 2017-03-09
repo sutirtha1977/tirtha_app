@@ -33,15 +33,10 @@
     <![endif]-->
   </head>
 
-  <body class="<%= controller_name %> <%= action_name %>">
+  <body class="<%= controller_name %> <%= action_name %>" data-spy="scroll" data-target="#nav" data-offset="50">
 
     <%= render 'layouts/app/navigation' %> <!-- navigation -->
-	<%= render 'layouts/messages' %> <!-- messages -->
-	<%= yield %>
-
-	<hr>
-	<footer>
-		<%= render 'layouts/app/footer' %>
-	</footer> <!-- footer -->
+    <%= yield %> <!-- main content -->
+	<%= render 'layouts/app/footer' %> <!-- footer -->
   </body>
 </html>

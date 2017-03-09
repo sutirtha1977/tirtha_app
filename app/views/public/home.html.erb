@@ -1,32 +1,30 @@
-<header id="intro">
-	<%= render 'intro' %>
-</header>
-<main id="wrapper">
-	<div class="scene" id="about">
-		<article class="content fullheight">
+<div class="container-fluid">
+	<%= render 'intro' %> 
+</div>
+<%= render 'layouts/messages' %> <!-- messages -->
+
+<div class="main">
+	<div class="page" id="about">
+		<div class="container">
 			<%= render 'about' %>
-		</article> <!-- about body -->
+		</div>
 	</div> <!-- about -->
 
-	<div class="scene" id="service">
-		<article class="content">
+	<div class="page" id="service">
+		<div class="container">
 			<%= render 'service' %>
-		</article> <!-- service body -->
+		</div>
 	</div> <!-- service -->
 
-	<div class="scene" id="product">
-		<article class="content">
+	<div class="page" id="product">
+		<div class="container">
 			<%= render 'product' %>
-		</article> <!-- product body -->
+		</div>
 	</div> <!-- product -->
 
-	<div class="scene" id="team">
-		<article class="content">
+	<div class="page" id="team">
+		<div class="container">
 			<%= render 'team' %>
-		</article> <!-- team body -->
+		</div>
 	</div> <!-- team -->
-
-</main> <!-- main -->
-
-
-
+</div> 

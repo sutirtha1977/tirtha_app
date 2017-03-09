@@ -4,8 +4,11 @@ $colDefault     : #ecf0f1;
 $colHighlight   : #efc94c;
 $dropDown       : true;
 .navbar-default {
+  width: 100%;
+  z-index: 100;
   background-color: $bgDefault;
   border-color: $bgHighlight;
+
   .navbar-brand {
     color: $colDefault;
     &:hover, &:focus {

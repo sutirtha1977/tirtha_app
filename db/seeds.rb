@@ -1,10 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
 
 puts "Remove all data from tables START"
 AdminUser.destroy_all
@@ -261,9 +254,7 @@ product = Product.create(
 	:description => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+consequat.", 
 	:category => "PRODUCT" ,
 	icon_path: "icons/icon2.svg",
 	:visible => true)
@@ -484,18 +475,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 	visible: true
 	})
 
-puts "Product 3"
-product = Product.create(
-	:name => "Pujas" , 
-	:description => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	:category => "SERVICE" ,
-	icon_path: "icons/icon3.svg",
-	:visible => true)
 
 product.listings.create({
 	name: "*Sindhurmani Puja Exclusive*",
@@ -677,15 +656,11 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 	visible: true
 	})
 
-puts "Product 4"
+puts "Product 3"
 product = Product.create(
-	:name => "Pujas For Problems" , 
+	:name => "Pujas" , 
 	:description => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+tempor incididunt ut labore et dolore magna aliqua. ", 
 	:category => "SERVICE" ,
 	icon_path: "icons/icon4.svg",
 	:visible => true)
@@ -812,7 +787,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 	visible: true
 	})
 
-puts "Product 5"
+puts "Product 4"
 product = Product.create(
 	:name => "Vastu" , 
 	:description => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

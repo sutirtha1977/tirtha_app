@@ -1,1 +1,22 @@
-<h1>Product</h1>
+<div class="row text-center">
+    <div class="col-sm-8 col-sm-offset-2">
+        <h2 class="title-one">Welcome to the Site</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="services row">
+            <% @all_categories.each do |category| %>
+            <div class="col-sm-6 col-md-3">
+                <div class="single-service">
+                    <%= image_tag(category.icon_path) %>
+                    <h2><%= category.name %></h2>
+                    <p><%= truncate(category.description, :length => 100) %></p>
+                </div>
+            </div>
+            <% end %>
+        </div>
+    </div>
+</div>  

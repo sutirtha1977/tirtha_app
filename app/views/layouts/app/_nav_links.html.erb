@@ -1,24 +1,30 @@
-<li><%= link_to 'Home', root_path %></li>
-<li><a href="#about">About</a></li>
+<li><%= link_to 'Home', root_path %></li> <!-- home link -->
+
+<li><%= link_to 'About', public_about_path %></li> <!-- home link -->
+
+
 <% if @services.count > 0 %>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Service <span class="caret"></span></a>
+  <a href="#service" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Service <span class="caret"></span></a>
   <ul class="dropdown-menu">
     <% @services.each do |service| %>
     <li><a href="#"><%= service.name %></a></li>
     <% end %>
   </ul>
 </li>
-<% end %>
+<% end %> <!-- services link -->
+
 <% if @products.count > 0 %>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Product <span class="caret"></span></a>
+  <a href="#product" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Product <span class="caret"></span></a>
   <ul class="dropdown-menu">
     <% @products.each do |product| %>
     <li><a href="#"><%= product.name %></a></li>
     <% end %>
   </ul>
 </li>
-<% end %>
-<li><a href="#team">Our Team</a></li>
-<li><a href="#gallery">Gallery</a></li>
+<% end %> <!-- products link -->
+
+<li><a href="#team">Our Team</a></li> <!-- team link -->
+
+<li><a href="#gallery">Gallery</a></li> <!-- gallery link -->
