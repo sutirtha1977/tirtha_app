@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   post 'access/attempt_login'
   get 'access/logout'
   get 'public/about'
+  get 'public/team'
 
 
   resources :admin_users, :except => [:show] do

@@ -2,6 +2,14 @@ $(function() {
 
     var topoffset = 52; 
 
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100
+      }
+    );
+    wow.init();
+
     $(document).on('turbolinks:load', function() {
 
         //make menus drop automatically

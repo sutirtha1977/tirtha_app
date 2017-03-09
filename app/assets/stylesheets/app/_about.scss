@@ -6,6 +6,7 @@
   	background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
   	// @include background-image(linear-gradient(top, $blue, $light));
   	// border-top: 20px solid $blue;
+  	padding-top: 70px;
 
 	.title-one {
 		color: $blue;
@@ -24,6 +25,7 @@
 		overflow:hidden;
 		margin-top:50px;
 		.single-service {
+			margin-bottom: 30px;
 			background-color: rgba(0, 0, 0, 0.39);
 			padding:25px;
 			transition: all 0.9s ease 0s;

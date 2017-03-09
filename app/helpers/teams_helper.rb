@@ -8,9 +8,9 @@ module TeamsHelper
 	end
 	def avatar_for_home(member)
 		if member.avatar?
-			image_tag member.avatar.url, class: "img-circle", "alt": member.first_name
+			image_tag member.avatar.url, class: "img-responsive", "size": "293X293"
 		else
-			image_tag "default_avatar.jpg"
+			image_tag "default_avatar.jpg", class: "img-responsive", "size": "293X293"
 		end	
 	end
 end

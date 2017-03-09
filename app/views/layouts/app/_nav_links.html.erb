@@ -1,6 +1,6 @@
 <li><%= link_to 'Home', root_path %></li> <!-- home link -->
 
-<li><%= link_to 'About', public_about_path %></li> <!-- home link -->
+<li><%= link_to 'About', public_about_path %></li> <!-- about link -->
 
 
 <% if @services.count > 0 %>
@@ -25,6 +25,6 @@
 </li>
 <% end %> <!-- products link -->
 
-<li><a href="#team">Our Team</a></li> <!-- team link -->
+<li><%= link_to 'Team', public_team_path %></li> <!-- team link -->
 
 <li><a href="#gallery">Gallery</a></li> <!-- gallery link -->
