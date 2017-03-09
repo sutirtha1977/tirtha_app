@@ -1,5 +1,8 @@
 <li><%= link_to 'Home', root_path %></li> <!-- home link -->
 
+<li><%= link_to 'About', public_about_path %></li> <!-- about link -->
+
+
 <% if @services.count > 0 %>
 <li class="dropdown">
   <a href="#service" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Service <span class="caret"></span></a>
@@ -21,5 +24,7 @@
   </ul>
 </li>
 <% end %> <!-- products link -->
+
+<li><%= link_to 'Team', public_team_path %></li> <!-- team link -->
 
 <li><a href="#gallery">Gallery</a></li> <!-- gallery link -->

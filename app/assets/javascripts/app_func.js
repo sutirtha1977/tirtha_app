@@ -1,7 +1,7 @@
 $(function() {  
 
     var topoffset = 52; 
-
+    // wow START
     wow = new WOW(
       {
         animateClass: 'animated',
@@ -9,8 +9,18 @@ $(function() {
       }
     );
     wow.init();
+    // wow END
 
     $(document).on('turbolinks:load', function() {
+        // equal height START
+        var heights = $(".single-list").map(function() {
+            return $(this).height();
+        }).get(),
+
+        maxHeight = Math.max.apply(null, heights);
+
+        $(".single-list").height(maxHeight);    
+        // equal height END
 
         //make menus drop automatically
         $('ul.nav li.dropdown').hover(function() {

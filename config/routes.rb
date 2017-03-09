@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get 'access/logout'
   get 'public/about'
   get 'public/team'
+  get 'public/listing'
+  get 'public/gallery'
 
 
   resources :admin_users, :except => [:show] do
