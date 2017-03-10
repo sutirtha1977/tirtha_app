@@ -16,4 +16,6 @@
 //= require turbolinks
 //= require jquery.turbolinks
 //= require wow
+//= require isotope.pkgd.min
+//= require imagesloaded.pkgd.min
 //= require app_func

@@ -11,6 +11,16 @@ $(function() {
     wow.init();
     // wow END
 
+    var $gallery = $('.gallery').isotope({
+      // options
+      itemSelector: '.photo',
+      layoutMode: 'masonry'
+    });
+
+    $gallery.imagesLoaded().progress( function() {
+        $gallery.isotope('layout');
+    })
+
     $(document).on('turbolinks:load', function() {
         // equal height START
         var heights = $(".single-list").map(function() {

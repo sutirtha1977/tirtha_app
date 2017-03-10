@@ -1,0 +1,19 @@
+<div class="page" id="photo">
+	<div class="container">
+        <div class="row text-center">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="title-one">Photos</h2>
+            </div>
+        </div>
+		<section class="gallery">
+			<%= (1..50).each do |i| %>
+		    <article class="photo">		    	
+	            <figure>
+	            	<%= image_tag("gallery/" + "%02d" % i + ".jpg") %>
+	                <figcaption><h2>Image <%= i %></h2></figcaption>
+	            </figure>
+		    </article>
+		    <% end %>
+		</section><!-- .gallery -->
+	</div>
+</div>
