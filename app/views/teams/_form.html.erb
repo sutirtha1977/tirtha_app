@@ -53,11 +53,13 @@
 		</div>
 		<% if (@team.new_record? || !@team.avatar?) %>
 			<div class="col-sm-12" style="padding-bottom: 10px;">
-				<%= f.file_field(:avatar, class: 'form-control') %>
+				<label>File input</label>
+				<%= f.file_field(:avatar) %>
 			</div>
 		<% else %>
 			<div class="col-sm-6" style="padding-bottom: 10px;">
-				<%= f.file_field(:avatar, class: 'form-control') %>
+				<label>File input</label>
+				<%= f.file_field(:avatar) %>
 			</div>
 	        <div class="col-sm-6 checkbox" style="padding-bottom: 10px;">
 	        	<label>
