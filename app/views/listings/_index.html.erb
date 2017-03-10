@@ -3,9 +3,15 @@
      <td>
       <%= listing.name %>
       <% if listing.visible %>
-          <i class="fa fa-eye fa-fw" aria-hidden="true"></i>
+          <%= link_to(toggle_visible_listing_path(listing,:product_id => @product.id), 
+              :remote => true) do %>
+              <i class="fa fa-eye fa-fw" aria-hidden="true"></i>
+          <% end %>  
       <% else %>
-          <i class="fa fa-eye-slash fa-fw" aria-hidden="true"></i>
+          <%= link_to(toggle_visible_listing_path(listing,:product_id => @product.id), 
+              :remote => true) do %>
+              <i class="fa fa-eye-slash fa-fw" aria-hidden="true"></i>
+          <% end %>   
       <% end %> 
       <% if listing.image? %>
         <i class="fa fa-camera fa-fw" aria-hidden="true"></i>

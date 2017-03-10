@@ -41,6 +41,16 @@ class ListingsController < ApplicationController
     end
   end
 
+  def toggle_visible
+    @listing = Listing.find(params[:id])
+    @listing.toggle(:visible)
+    @listing.save
+    flash[:notice] = "Listing visibility toggled successfully."
+    respond_to do |format|
+        format.js
+    end
+  end
+
   def delete
     @listing = Listing.find(params[:id])
   end

@@ -44,7 +44,9 @@ class ProductsController < ApplicationController
     @product.toggle(:visible)
     @product.save
     flash[:notice] = "Category visibility toggled successfully."
-    redirect_to(products_path)
+    respond_to do |format|
+        format.js
+    end
   end
 
   def delete

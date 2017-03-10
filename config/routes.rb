@@ -27,7 +27,7 @@ Rails.application.routes.draw do
   
   resources :listings do
     member do
-      get :delete
+      get :delete, :toggle_visible
     end
   end
 
