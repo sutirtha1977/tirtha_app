@@ -11,6 +11,7 @@ class CreateTeams < ActiveRecord::Migration[5.0]
       t.string  :facebook
       t.string  :twitter
       t.string  :linkedin
+      t.integer :position
       t.timestamps
     end
   end

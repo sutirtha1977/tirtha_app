@@ -9,9 +9,12 @@
 		<div class="col-sm-6" style="padding-bottom: 10px;">
 			<%= f.text_field(:last_name, class: 'text-cp form-control', placeholder: 'Lastname') %>
 		</div>
-		<div class="col-sm-12" style="padding-bottom: 10px;">
+		<div class="col-sm-6" style="padding-bottom: 10px;">
 			<%= f.text_field(:title, class: 'text-cp form-control', placeholder: 'Title') %>
 		</div>
+        <div class="col-sm-6" style="padding-bottom: 10px;">
+            <%= f.select(:position, 1..@team_count, {class: 'form-control'}) %>
+        </div>
 		<div class="col-sm-12" style="padding-bottom: 10px;">
 		    <%= f.text_area(:description, class: 'text-cp form-control', rows:'6', placeholder: 'Tell about yourself...') %>
 		</div>

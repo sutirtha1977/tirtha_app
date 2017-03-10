@@ -1,5 +1,6 @@
 class Team < ApplicationRecord
 	mount_uploader :avatar, AvatarUploader
+	acts_as_list
 	
 	EMAIL_REGEX = /\A[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}\Z/i
 
@@ -17,6 +18,7 @@ class Team < ApplicationRecord
 
 
 	scope :sorted, lambda { order('last_name ASC, first_name ASC')}
+	scope :sort_pos, lambda { order(:position) }
 
 	def name
 		"#{first_name} #{last_name}"

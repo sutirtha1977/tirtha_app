@@ -2,6 +2,7 @@ class TeamsController < ApplicationController
   layout 'admin'
 
   before_action :confirm_logged_in
+  before_action :set_team_count, :only => [:new, :create, :edit, :update]
 
   def index
     @teams = Team.sorted
@@ -65,9 +66,16 @@ class TeamsController < ApplicationController
       :facebook,
       :twitter,
       :linkedin,
+      :position,
       :avatar,
       :remove_avatar
     )
   end
-
+  
+  def set_team_count
+    @team_count = Team.count
+    if params[:action] == 'new' || params[:action] == 'create'
+      @team_count += 1
+    end
+  end
 end

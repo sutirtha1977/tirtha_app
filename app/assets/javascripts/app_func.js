@@ -1,7 +1,9 @@
 $(function() {  
 
     var topoffset = 52; 
-    // wow START
+    /************************************ 
+    wow start 
+    ************************************/
     wow = new WOW(
       {
         animateClass: 'animated',
@@ -9,40 +11,51 @@ $(function() {
       }
     );
     wow.init();
-    // wow END
-
-    var $gallery = $('.gallery').isotope({
-      // options
-      itemSelector: '.photo',
-      layoutMode: 'masonry'
-    });
-
-    $gallery.imagesLoaded().progress( function() {
-        $gallery.isotope('layout');
-    })
+    /************************************ 
+    wow end 
+    ************************************/
 
     $(document).on('turbolinks:load', function() {
-        // equal height START
-        var heights = $(".single-list").map(function() {
-            return $(this).height();
-        }).get(),
-
-        maxHeight = Math.max.apply(null, heights);
-
-        $(".single-list").height(maxHeight);    
-        // equal height END
-
-        //make menus drop automatically
+        /************************************ 
+        make menus drop automatically start 
+        ************************************/
         $('ul.nav li.dropdown').hover(function() {
             $('.dropdown-menu', this).fadeIn();
         }, function() {
             $('.dropdown-menu', this).fadeOut('fast');
         });//hover
+        /************************************ 
+        make menus drop automatically end 
+        ************************************/
 
-        //tool tip
+
+        /************************************ 
+        isotope start 
+        ************************************/
+        var $gallery = $('.gallery').isotope({
+          // options
+          itemSelector: '.photo',
+          layoutMode: 'masonry'
+        });
+
+        $gallery.imagesLoaded().progress( function() {
+            $gallery.isotope('layout');
+        })
+        /************************************ 
+        isotope end 
+        ************************************/
+
+        /************************************ 
+        tool tip start 
+        ************************************/
         $('[data-toggle="tooltip"]').tooltip();
+        /************************************ 
+        tool tip end 
+        ************************************/
 
-        //fullheight START
+        /************************************ 
+        fullheight start 
+        ************************************/
         //window height
         var wheight = $(window).height(); //get height of the window
 
@@ -52,39 +65,23 @@ $(function() {
             var wheight = $(window).height(); //get height of the window
             $('.fullheight').css('height', wheight);
         }) //on resize
-        //fullheight END
+        /************************************ 
+        fullheight end 
+        ************************************/
 
-      // //highlight navigation
-      // $(window).scroll(function() {
-      //   var windowpos = $(window).scrollTop() + topoffset;
-      //   $('nav li').removeClass('active');
+        /************************************ 
+        listings equal height start 
+        ************************************/
+        var heights = $(".single-list").map(function() {
+            return $(this).height();
+        }).get(),
 
-      //   // if (windowpos > $('#intro').offset().top) {
-      //   //   $('nav li').removeClass('active');
-      //   //   $('a[href$="/"]').parent().addClass('active');
-      //   // } //windowpos
+        maxHeight = Math.max.apply(null, heights);
 
-      //   if (windowpos > $('#about').offset().top) {
-      //     $('nav li').removeClass('active');
-      //     $('a[href$="#about"]').parent().addClass('active');
-      //   } //windowpos
-
-      //   if (windowpos > $('#service').offset().top) {
-      //     $('nav li').removeClass('active');
-      //     $('a[href$="#service"]').parent().addClass('active');
-      //   } //windowpos
-
-      //   if (windowpos > $('#product').offset().top) {
-      //     $('nav li').removeClass('active');
-      //     $('a[href$="#product"]').parent().addClass('active');
-      //   } //windowpos
-
-      //   if (windowpos > $('#team').offset().top) {
-      //     $('nav li').removeClass('active');
-      //     $('a[href$="#team"]').parent().addClass('active');
-      //   } //windowpos
-
-      // }); //window scroll
+        $(".single-list").height(maxHeight);    
+        /************************************ 
+        listings equal height end 
+        ************************************/
 
     });
 

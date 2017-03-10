@@ -3,22 +3,10 @@
 // Sets the min-height of #page-wrapper to window size
 $(function() {
 
-    // //tool tips
-    // $('.tooltips').tooltip();
-
-    // //popovers
-    // $('.popovers').popover();
-
-    // //custom scrollbar
-    // //for html
-    // $("html").niceScroll({styler:"fb",cursorcolor:"#007AFF", cursorwidth: '6', cursorborderradius: '10px', background: '#F7F7F7', cursorborder: '', zindex: '1000'});
-    // //for sidebar
-    // $("#sidebar").niceScroll({styler:"fb",cursorcolor:"#007AFF", cursorwidth: '3', cursorborderradius: '10px', background: '#F7F7F7', cursorborder: ''});
-    // // for scroll panel
-    // $(".scroll-panel").niceScroll({styler:"fb",cursorcolor:"#007AFF", cursorwidth: '3', cursorborderradius: '10px', background: '#F7F7F7', cursorborder: ''});
-    
     $(document).on('turbolinks:load', function() {
-        //sidebar dropdown menu
+        /************************************ 
+        sidebar dropdown menu start 
+        ************************************/
         $('#sidebar .sub-menu > a').click(function () {
             var last = $('.sub-menu.open', $('#sidebar'));        
             $('.menu-arrow').removeClass('arrow_carrot-right');
@@ -38,8 +26,13 @@ $(function() {
             else
                 $("#sidebar").scrollTo("+="+Math.abs(diff),500);
         });
+        /************************************ 
+        sidebar dropdown menu end 
+        ************************************/
 
-        // sidebar menu toggle
+        /************************************ 
+        sidebar menu toggle start 
+        ************************************/
         $(function() {
             function responsiveView() {
                 var wSize = $(window).width();
@@ -78,18 +71,33 @@ $(function() {
                 $("#container").removeClass("sidebar-closed");
             }
         });
+        /************************************ 
+        sidebar menu toggle end 
+        ************************************/
 
-        //make menus drop automatically
+        /************************************ 
+        make menus drop automatically start 
+        ************************************/
         $('ul.top-menu li.dropdown').hover(function() {
             $('.dropdown-menu', this).fadeIn();
         }, function() {
             $('.dropdown-menu', this).fadeOut('fast');
         });//hover
+        /************************************ 
+        make menus drop automatically end 
+        ************************************/
 
-        //tool tip
+        /************************************ 
+        tool tip start 
+        ************************************/
         $('[data-toggle="tooltip"]').tooltip();
+        /************************************ 
+        tool tip end  
+        ************************************/
 
-        //dataTables-product responsive
+        /************************************ 
+        dataTables-product responsive start 
+        ************************************/
         $('#dataTables-product').DataTable({
             responsive: true,
             "columns": [
@@ -100,7 +108,13 @@ $(function() {
                 { "orderable": false }
             ]
         });
-        //dataTables-listing responsive
+        /************************************ 
+        dataTables-product responsive end 
+        ************************************/
+
+        /************************************ 
+        dataTables-listing responsive start 
+        ************************************/
         $('#dataTables-listing').DataTable({
             responsive: true,
             "columns": [
@@ -110,7 +124,13 @@ $(function() {
                 { "orderable": false }
             ]
         });
-        //dataTables-adminuser responsive
+        /************************************ 
+        dataTables-listing responsive end 
+        ************************************/
+
+        /************************************ 
+        dataTables-adminuser responsive start 
+        ************************************/
         $('#dataTables-adminuser').DataTable({
             responsive: true,
             "columns": [
@@ -120,16 +140,26 @@ $(function() {
                 { "orderable": false }
             ]
         });
-        //dataTables-team responsive
+        /************************************ 
+        dataTables-adminuser responsive end 
+        ************************************/
+
+        /************************************ 
+        dataTables-team responsive start 
+        ************************************/
         $('#dataTables-team').DataTable({
             responsive: true,
             "columns": [
                 null,
                 null,
                 null,
+                null,
                 { "orderable": false }
             ]
         });
+        /************************************ 
+        dataTables-team responsive end 
+        ************************************/
     });
 
 });

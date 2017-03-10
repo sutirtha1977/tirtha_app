@@ -58,6 +58,7 @@ ActiveRecord::Schema.define(version: 20170307211258) do
     t.string   "facebook"
     t.string   "twitter"
     t.string   "linkedin"
+    t.integer  "position"
     t.datetime "created_at",                           null: false
     t.datetime "updated_at",                           null: false
     t.string   "avatar"

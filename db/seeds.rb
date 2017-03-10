@@ -841,7 +841,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 	:google => "https://www.google.com",
 	:facebook => "https://www.facebook.com",
 	:twitter => "https://www.twitter.com",
-	:linkedin => "https://www.linkedin.com"
+	:linkedin => "https://www.linkedin.com",
+	:position => 1
 	)
 
 puts "Member 2"
@@ -859,7 +860,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non",
 	:google => "https://www.google.com",
 	:facebook => "https://www.facebook.com",
 	:twitter => "https://www.twitter.com",
-	:linkedin => "https://www.linkedin.com"
+	:linkedin => "https://www.linkedin.com",
+	:position => 2
 	)
 
 puts "Member 3"
@@ -878,7 +880,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 	:google => "https://www.google.com",
 	:facebook => "https://www.facebook.com",
 	:twitter => "https://www.twitter.com",
-	:linkedin => "https://www.linkedin.com"
+	:linkedin => "https://www.linkedin.com",
+	:position => 3
 	)
 
 puts "Member 4"
@@ -897,7 +900,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 	:google => "https://www.google.com",
 	:facebook => "https://www.facebook.com",
 	:twitter => "https://www.twitter.com",
-	:linkedin => "https://www.linkedin.com"
+	:linkedin => "https://www.linkedin.com",
+	:position => 4
 	)
 
 puts "Member 5"
@@ -916,7 +920,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 	:google => "https://www.google.com",
 	:facebook => "https://www.facebook.com",
 	:twitter => "https://www.twitter.com",
-	:linkedin => "https://www.linkedin.com"
+	:linkedin => "https://www.linkedin.com",
+	:position => 5
 	)
 
 puts "Member 6"
@@ -935,7 +940,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 	:google => "https://www.google.com",
 	:facebook => "https://www.facebook.com",
 	:twitter => "https://www.twitter.com",
-	:linkedin => "https://www.linkedin.com"
+	:linkedin => "https://www.linkedin.com",
+	:position => 6
 	)
 
 puts "Member 7"
@@ -954,7 +960,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 	:google => "https://www.google.com",
 	:facebook => "https://www.facebook.com",
 	:twitter => "https://www.twitter.com",
-	:linkedin => "https://www.linkedin.com"
+	:linkedin => "https://www.linkedin.com",
+	:position => 7
 	)
 
 puts "Member 8"
@@ -973,7 +980,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 	:google => "https://www.google.com",
 	:facebook => "https://www.facebook.com",
 	:twitter => "https://www.twitter.com",
-	:linkedin => "https://www.linkedin.com"
+	:linkedin => "https://www.linkedin.com",
+	:position => 8
 	)
 
 puts "Member 9"
@@ -992,7 +1000,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 	:google => "https://www.google.com",
 	:facebook => "https://www.facebook.com",
 	:twitter => "https://www.twitter.com",
-	:linkedin => "https://www.linkedin.com"
+	:linkedin => "https://www.linkedin.com",
+	:position => 9
 	)
 
 puts "Member 10"
@@ -1011,7 +1020,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 	:google => "https://www.google.com",
 	:facebook => "https://www.facebook.com",
 	:twitter => "https://www.twitter.com",
-	:linkedin => "https://www.linkedin.com"
+	:linkedin => "https://www.linkedin.com",
+	:position => 10
 	)
 
 
