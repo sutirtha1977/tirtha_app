@@ -14,7 +14,6 @@
             <%= f.text_area(:long_desc, class: 'form-control', rows:'6',  placeholder: 'Describe in details...') %>
         </div>
         <div class="col-sm-6 text-center text-danger" style="padding-bottom: 10px;">
-
             <div class="input-group">
                 <span class="input-group-addon">Original Price (INR)</span>
                 <%= f.number_field(:orig_price, class: 'form-control') %> 
@@ -26,9 +25,21 @@
                 <%= f.number_field(:curr_price, class: 'form-control') %>
             </div> 
         </div>
-        <div class="col-sm-12" style="padding-bottom: 10px;">
-            <%= f.file_field(:image, class: 'form-control') %>
-        </div>
+        <% if (@listing.new_record? || !@listing.image?) %>
+            <div class="col-sm-12" style="padding-bottom: 10px;">
+                <%= f.file_field(:image, class: 'form-control') %>
+            </div>
+        <% else %>
+            <div class="col-sm-6" style="padding-bottom: 10px;">
+                <%= f.file_field(:image, class: 'form-control') %>
+            </div>
+            <div class="col-sm-6 checkbox" style="padding-bottom: 10px;">
+                <label>
+                <%= f.check_box(:remove_image) %> 
+                Remove Image
+                </label>
+            </div>
+        <% end %>
     </div>
 </div>
 <div class="modal-footer">

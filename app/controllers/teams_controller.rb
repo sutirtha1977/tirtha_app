@@ -65,7 +65,8 @@ class TeamsController < ApplicationController
       :facebook,
       :twitter,
       :linkedin,
-      :avatar
+      :avatar,
+      :remove_avatar
     )
   end
 
