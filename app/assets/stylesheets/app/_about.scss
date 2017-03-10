@@ -28,9 +28,9 @@
 			background-color: rgba(0, 0, 0, 0.39);
 			padding:25px;
 			transition: all 0.9s ease 0s;
-			-moz-transition: all 0.9s ease 0s;
-			-webkit-transition: all 0.9s ease 0s;
-			-o-transition: all 0.9s ease 0s;
+			// -moz-transition: all 0.9s ease 0s;
+			// -webkit-transition: all 0.9s ease 0s;
+			// -o-transition: all 0.9s ease 0s;
 			h2 {
 				padding-top: 10px;
 				color: $dark;
@@ -47,19 +47,19 @@
 				width: 150px;
 				color:#43484E;
 				transition: all 0.9s ease 0s;
-				-moz-transition: all 0.9s ease 0s;
-				-webkit-transition: all 0.9s ease 0s;
-				-o-transition: all 0.9s ease 0s;
+				// -moz-transition: all 0.9s ease 0s;
+				// -webkit-transition: all 0.9s ease 0s;
+				// -o-transition: all 0.9s ease 0s;
 			}
 			&:hover {
 				background-color: #fc7700;
 				h2 { color: $light; font-weight: $bold;}
 				img {
 					color:#fc7700;
-					-moz-transform: scale(1.1) rotate(360deg);
-					-webkit-transform: scale(1.1) rotate(360deg);
-					-o-transform: scale(1.1) rotate(360deg);
-					-ms-transform: scale(1.1) rotate(360deg);
+					// -moz-transform: scale(1.1) rotate(360deg);
+					// -webkit-transform: scale(1.1) rotate(360deg);
+					// -o-transform: scale(1.1) rotate(360deg);
+					// -ms-transform: scale(1.1) rotate(360deg);
 					transform: scale(1.1) rotate(360deg);
 				}
 			}

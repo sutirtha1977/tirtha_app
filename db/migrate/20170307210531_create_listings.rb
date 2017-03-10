@@ -8,6 +8,7 @@ class CreateListings < ActiveRecord::Migration[5.0]
 		t.boolean 	:visible, default: false
 		t.decimal 	:orig_price, precision: 12, scale:2, default: 0
 		t.decimal 	:curr_price, precision: 12, scale:2, default: 0
+		t.string  	:image_loc
 		t.timestamps
     end
     add_index(:listings, :product_id)

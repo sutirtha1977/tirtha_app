@@ -19,6 +19,7 @@ class ListingsController < ApplicationController
   def create
     @listing = Listing.new(listing_params)
     @listing.product = @product 
+    @listing.image_loc = File.join("listings", @listing.name.downcase.gsub!(/\s+/, '') + ".jpg")
     if @listing.save
       flash[:notice] = "Listing created successfully."
       redirect_to(listings_path(:product_id => @product.id))
@@ -66,7 +67,7 @@ private
 
   def listing_params
     params.require(:listing).permit(:product_id, :name, 
-              :short_desc, :long_desc, :visible, :orig_price, :curr_price, :image, :remove_image)
+              :short_desc, :long_desc, :visible, :orig_price, :curr_price, :image_loc)
   end
 
   def find_product

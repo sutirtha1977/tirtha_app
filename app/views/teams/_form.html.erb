@@ -54,22 +54,10 @@
 				<%= f.text_field(:linkedin, class: 'text-dn form-control', placeholder: 'linkedin-link') %>
 			</div>
 		</div>
-		<% if (@team.new_record? || !@team.avatar?) %>
-			<div class="col-sm-12" style="padding-bottom: 10px;">
-				<label>File input</label>
-				<%= f.file_field(:avatar) %>
-			</div>
-		<% else %>
-			<div class="col-sm-6" style="padding-bottom: 10px;">
-				<label>File input</label>
-				<%= f.file_field(:avatar) %>
-			</div>
-	        <div class="col-sm-6 checkbox" style="padding-bottom: 10px;">
-	        	<label>
-	            <%= f.check_box(:remove_avatar) %> 
-	            Remove Avatar
-	            </label>
-	        </div>
+		<% if !@team.new_record? %>
+		<div class="col-sm-12" style="padding-bottom: 10px;">
+			<%= f.text_field(:avatar_loc, class: 'form-control', placeholder: 'Image location') %>
+		</div>
 		<% end %>
 	</div>
 </div>

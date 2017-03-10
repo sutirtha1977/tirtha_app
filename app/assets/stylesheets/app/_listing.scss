@@ -10,10 +10,10 @@
 		background-color:#F7F7F7;
 		padding:25px;
 		transition: all 1s ease 0s;
-		-moz-transition: all 1s ease 0s;
-		-webkit-transition: all 1s ease 0s;
-		-o-transition: all 1s ease 0s;
-		-webkit-box-shadow: 0 2px 0 0 #ddd;
+		// -moz-transition: all 1s ease 0s;
+		// -webkit-transition: all 1s ease 0s;
+		// -o-transition: all 1s ease 0s;
+		// -webkit-box-shadow: 0 2px 0 0 #ddd;
 		box-shadow: 0 2px 0 0 #ddd;
 		&:hover {
 			background-color:#43484E;
@@ -27,9 +27,9 @@
 			color:#fff;
 			border-color:#fff;
 			transition: all 0.9s ease 0s;
-			-moz-transition: all 0.9s ease 0s;
-			-webkit-transition: all 0.9s ease 0s;
-			-o-transition: all 0.9s ease 0s;
+			// -moz-transition: all 0.9s ease 0s;
+			// -webkit-transition: all 0.9s ease 0s;
+			// -o-transition: all 0.9s ease 0s;
 		}
 		img{
 			width:100%;

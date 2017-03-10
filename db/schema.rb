@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170307211258) do
+ActiveRecord::Schema.define(version: 20170307210756) do
 
   create_table "admin_users", force: :cascade do |t|
     t.string   "first_name",      limit: 25
@@ -31,9 +31,9 @@ ActiveRecord::Schema.define(version: 20170307211258) do
     t.boolean  "visible",                             default: false
     t.decimal  "orig_price", precision: 12, scale: 2, default: "0.0"
     t.decimal  "curr_price", precision: 12, scale: 2, default: "0.0"
+    t.string   "image_loc"
     t.datetime "created_at",                                          null: false
     t.datetime "updated_at",                                          null: false
-    t.string   "image"
     t.index ["product_id"], name: "index_listings_on_product_id"
   end
 
@@ -59,9 +59,9 @@ ActiveRecord::Schema.define(version: 20170307211258) do
     t.string   "twitter"
     t.string   "linkedin"
     t.integer  "position"
+    t.string   "avatar_loc"
     t.datetime "created_at",                           null: false
     t.datetime "updated_at",                           null: false
-    t.string   "avatar"
   end
 
 end

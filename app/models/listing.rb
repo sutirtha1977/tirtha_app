@@ -1,6 +1,4 @@
 class Listing < ApplicationRecord
-	mount_uploader :image, AvatarUploader
-	
 	belongs_to :product
 
 	scope :visible, lambda { where(:visible => true) }

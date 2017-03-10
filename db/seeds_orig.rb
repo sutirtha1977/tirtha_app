@@ -65,8 +65,19 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/childrenhoroscope.jpg"
+	visible: true
+	})
+
+product.listings.create({
+	name: "Consult A Pandit",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
 	})
 
 product.listings.create({
@@ -78,8 +89,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/consultapandit.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -91,8 +101,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/familyandrelationshoroscope.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -104,8 +113,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/fullvedichoroscopepackage.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -117,8 +125,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/gemstoneconsultation.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -130,8 +137,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/healthhoroscope.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -143,8 +149,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/litigationhoroscope.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -156,8 +161,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/lovehoroscope.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -169,8 +173,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/marriagehoroscope.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -182,8 +185,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/numerology.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -195,8 +197,19 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/palmistry.jpg"
+	visible: true
+	})
+
+product.listings.create({
+	name: "Prashna Kundli - Ask A Question",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
 	})
 
 product.listings.create({
@@ -208,8 +221,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/propertyhoroscope.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -221,8 +233,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/tarotreading.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -234,8 +245,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/varshphal.jpg"
+	visible: true
 	})
 
 puts "Product 2"
@@ -249,6 +259,17 @@ consequat.",
 	icon_path: "icons/icon2.svg",
 	:visible => true)
 
+product.listings.create({
+	name: "*Sindhurmani Siddha Kavach*",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
 
 product.listings.create({
 	name: "Chowki",
@@ -259,12 +280,11 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/chowki.jpg"
+	visible: true
 	})
 
 product.listings.create({
-	name: "Blue Sapphire",
+	name: "Gemstone - Blue Sapphire",
 	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
 	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -272,12 +292,11 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/bluesapphire.jpg"
+	visible: true
 	})
 
 product.listings.create({
-	name: "Coral",
+	name: "Gemstone - Coral",
 	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
 	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -285,12 +304,11 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/coral.jpg"
+	visible: true
 	})
 
 product.listings.create({
-	name: "Diamond",
+	name: "Gemstone - Diamond",
 	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
 	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -298,12 +316,11 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/diamond.jpg"
+	visible: true
 	})
 
 product.listings.create({
-	name: "Emerald",
+	name: "Gemstone - Emerald",
 	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
 	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -311,12 +328,11 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/emerald.jpg"
+	visible: true
 	})
 
 product.listings.create({
-	name: "Gomedh Cats Eye",
+	name: "Gemstone - Gomedh/Cat's Eye",
 	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
 	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -324,12 +340,11 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/gomedhcatseye.jpg"
+	visible: true
 	})
 
 product.listings.create({
-	name: "Opal",
+	name: "Gemstone - Opal",
 	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
 	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -337,12 +352,11 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/opal.jpg"
+	visible: true
 	})
 
 product.listings.create({
-	name: "Pearl",
+	name: "Gemstone - Pearl",
 	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
 	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -350,12 +364,11 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/pearl.jpg"
+	visible: true
 	})
 
 product.listings.create({
-	name: "Ruby",
+	name: "Gemstone - Ruby",
 	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
 	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -363,12 +376,11 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/ruby.jpg"
+	visible: true
 	})
 
 product.listings.create({
-	name: "Yellow Sapphire",
+	name: "Gemstone - Yellow Sapphire",
 	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
 	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -376,8 +388,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/yellowsapphire.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -389,8 +400,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/gifts.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -402,8 +412,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/idols.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -415,8 +424,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/magnetic.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -428,8 +436,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/pujaitems.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -441,8 +448,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/pujasamagri.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -454,8 +460,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/rudraksha.jpg"
+	visible: true
 	})
 
 product.listings.create({
@@ -467,8 +472,188 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/yantra.jpg"
+	visible: true
+	})
+
+
+product.listings.create({
+	name: "*Sindhurmani Puja Exclusive*",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+
+product.listings.create({
+	name: "*Sindhurmani Puja Exclusive*",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+
+product.listings.create({
+	name: "Antim Sanskar puja",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+
+product.listings.create({
+	name: "Corporate Puja",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+
+product.listings.create({
+	name: "Festival Puja",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+
+product.listings.create({
+	name: "Grah Shanti puja",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+
+product.listings.create({
+	name: "Marriage Puja",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+
+product.listings.create({
+	name: "Navratri Puja",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+
+product.listings.create({
+	name: "Nazar & Black Magic",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+
+product.listings.create({
+	name: "Paaths, Japs And Kathas",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+
+product.listings.create({
+	name: "Personal Occasions Puja",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+
+product.listings.create({
+	name: "Shradh puja",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+
+product.listings.create({
+	name: "Pind Daan Kriya With Brahman Bhoj",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+
+product.listings.create({
+	name: "Pitra Dosh Nivaran Puja",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+
+product.listings.create({
+	name: "Pitra Santushti Sadhna Puja With Havan",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
 	})
 
 puts "Product 3"
@@ -489,8 +674,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/blackmagicrelated.jpg"
+	visible: true
 	})
 product.listings.create({
 	name: "Children Related",
@@ -501,8 +685,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/childrenrelated.jpg"
+	visible: true
 	})
 product.listings.create({
 	name: "Education Related",
@@ -513,11 +696,10 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/educationrelated.jpg"
+	visible: true
 	})
 product.listings.create({
-	name: "Finance Career Related",
+	name: "Finance / Career Related",
 	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
 	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -525,8 +707,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/financecareerrelated.jpg"
+	visible: true
 	})
 product.listings.create({
 	name: "Health Related",
@@ -537,10 +718,52 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/healthrelated.jpg"
+	visible: true
 	})
-
+product.listings.create({
+	name: "Legal Issues Related",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+product.listings.create({
+	name: "Marriage & Love Related",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+product.listings.create({
+	name: "Mental Stress And Issues",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
+product.listings.create({
+	name: "Nakshatra & Grah Pujas",
+	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+	long_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
+	visible: true
+	})
 product.listings.create({
 	name: "Relations Related",
 	short_desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
@@ -550,8 +773,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/relationsrelated.jpg"
+	visible: true
 	})
 product.listings.create({
 	name: "Removing Doshas",
@@ -562,8 +784,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/removingdoshas.jpg"
+	visible: true
 	})
 
 puts "Product 4"
@@ -587,8 +808,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/vastuforbusiness.jpg"
+	visible: true
 	})
 product.listings.create({
 	name: "Vastu For Home",
@@ -599,8 +819,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
-	visible: true,
-	image_loc: "listings/vastuforhome.jpg"
+	visible: true
 	})
 
 puts "Creating Product END"

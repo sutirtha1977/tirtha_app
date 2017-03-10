@@ -12,8 +12,8 @@
   ),url($image);
   background-repeat: no-repeat;
   background-position: $bgPos; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
   background-size: cover;
 } //backImage

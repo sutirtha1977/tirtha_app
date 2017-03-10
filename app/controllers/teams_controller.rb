@@ -18,6 +18,8 @@ class TeamsController < ApplicationController
 
   def create
     @team = Team.new(team_params)
+    @team.avatar_loc = File.join("team", @team.first_name.downcase.split.first + ".jpg")
+
     if @team.save
       flash[:notice] = "Member created successfully."
       redirect_to(teams_path)
@@ -67,8 +69,7 @@ class TeamsController < ApplicationController
       :twitter,
       :linkedin,
       :position,
-      :avatar,
-      :remove_avatar
+      :avatar_loc
     )
   end
   

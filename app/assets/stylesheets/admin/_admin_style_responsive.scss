@@ -155,17 +155,17 @@
         border: none !important;
         margin-right: 2px !important;
         background-color: #fafafa !important;
-        background-image: -moz-linear-gradient(top, #fafafa, #efefef) !important;
-        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#efefef)) !important;
-        background-image: -webkit-linear-gradient(top, #fafafa, #efefef) !important;
-        background-image: -o-linear-gradient(top, #fafafa, #efefef) !important;
+        // background-image: -moz-linear-gradient(top, #fafafa, #efefef) !important;
+        // background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#efefef)) !important;
+        // background-image: -webkit-linear-gradient(top, #fafafa, #efefef) !important;
+        // background-image: -o-linear-gradient(top, #fafafa, #efefef) !important;
         background-image: linear-gradient(to bottom, #fafafa, #efefef) !important;
         filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fafafa', endColorstr='#efefef', GradientType=0) !important;
-        -webkit-box-shadow: 0 1px 0px rgba(255, 255, 255, .8) !important;
-        -moz-box-shadow: 0 1px 0px rgba(255, 255, 255, .8) !important;
+        // -webkit-box-shadow: 0 1px 0px rgba(255, 255, 255, .8) !important;
+        // -moz-box-shadow: 0 1px 0px rgba(255, 255, 255, .8) !important;
         box-shadow: 0 1px 0px rgba(255, 255, 255, .8) !important;
-        -webkit-border-radius: 3px !important;
-        -moz-border-radius: 3px !important;
+        // -webkit-border-radius: 3px !important;
+        // -moz-border-radius: 3px !important;
         border-radius: 3px !important;
         color: #646464 !important;
         border: 1px solid #ddd !important;
@@ -179,10 +179,10 @@
 
     .fc-button.fc-state-active .fc-button-inner {
         background-color: #e5e4e4 !important;
-        background-image: -moz-linear-gradient(top, #e5e4e4, #dddcdc) !important;
-        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e5e4e4), to(#dddcdc)) !important;
-        background-image: -webkit-linear-gradient(top, #e5e4e4, #dddcdc) !important;
-        background-image: -o-linear-gradient(top, #e5e4e4, #dddcdc) !important;
+        // background-image: -moz-linear-gradient(top, #e5e4e4, #dddcdc) !important;
+        // background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e5e4e4), to(#dddcdc)) !important;
+        // background-image: -webkit-linear-gradient(top, #e5e4e4, #dddcdc) !important;
+        // background-image: -o-linear-gradient(top, #e5e4e4, #dddcdc) !important;
         background-image: linear-gradient(to bottom, #e5e4e4, #dddcdc) !important;
         filter: progid:dximagetransform.microsoft.gradient(startColorstr='#e5e4e4', endColorstr='#dddcdc', GradientType=0) !important;
     }

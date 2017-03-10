@@ -12,6 +12,7 @@ class CreateTeams < ActiveRecord::Migration[5.0]
       t.string  :twitter
       t.string  :linkedin
       t.integer :position
+      t.string  :avatar_loc
       t.timestamps
     end
   end

@@ -25,22 +25,10 @@
                 <%= f.number_field(:curr_price, class: 'form-control') %>
             </div> 
         </div>
-        <% if (@listing.new_record? || !@listing.image?) %>
-            <div class="col-sm-12" style="padding-bottom: 10px;">
-                <label>File input</label>
-                <%= f.file_field(:image) %>
-            </div>
-        <% else %>
-            <div class="col-sm-6" style="padding-bottom: 10px;">
-                <label>File input</label>
-                <%= f.file_field(:image) %>
-            </div>
-            <div class="col-sm-6 checkbox" style="padding-bottom: 10px;">
-                <label>
-                <%= f.check_box(:remove_image) %> 
-                Remove Image
-                </label>
-            </div>
+        <% if !@listing.new_record? %>
+        <div class="col-sm-12" style="padding-bottom: 10px;">
+            <%= f.text_field(:image_loc, class: 'form-control', placeholder: 'Image location') %>
+        </div>
         <% end %>
     </div>
 </div>
