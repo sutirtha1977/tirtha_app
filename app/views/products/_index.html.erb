@@ -12,6 +12,9 @@
                 :remote => true) do %>
                 <i class="fa fa-eye-slash fa-fw" aria-hidden="true"></i>
             <% end %>      
+        <% end %>
+        <% if product.icon_path? %>
+            <i class="fa fa-camera fa-fw" aria-hidden="true"></i>
         <% end %>       
     </td>
     <td>

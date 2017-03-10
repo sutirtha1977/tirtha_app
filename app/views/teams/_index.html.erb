@@ -1,7 +1,12 @@
 <% @teams.each do |team| %>
 <tr>
-    <td><%= team.first_name %></td>
-    <td><%= team.last_name %></td>
+    <td>
+        <%= team.name %>  
+        <% if team.avatar? %>
+            <i class="fa fa-camera fa-fw" aria-hidden="true"></i>
+        <% end %>  
+    </td>
+
     <td><%= mail_to(team.email) %></td>
     <td>
         <%= link_to(team_path(team), 

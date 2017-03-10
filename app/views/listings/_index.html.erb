@@ -7,6 +7,9 @@
       <% else %>
           <i class="fa fa-eye-slash fa-fw" aria-hidden="true"></i>
       <% end %> 
+      <% if listing.image? %>
+        <i class="fa fa-camera fa-fw" aria-hidden="true"></i>
+      <% end %>  
     </td>  
     <td>
       <%= number_to_currency(listing.orig_price, 
