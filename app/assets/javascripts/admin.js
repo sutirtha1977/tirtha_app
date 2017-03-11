@@ -15,7 +15,7 @@
 //= require dataTables/jquery.dataTables
 //= require dataTables/extras/dataTables.responsive
 //= require dataTables/bootstrap/3/jquery.dataTables.bootstrap
-//= require bootstrap
+//= require bootstrap-sprockets
 //= require jquery.turbolinks
 //= require turbolinks
 //= require admin_func
