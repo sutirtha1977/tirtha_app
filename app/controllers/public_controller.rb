@@ -27,6 +27,7 @@ private
 	def get_menu_data
 	  	@products = Product.category_group('PRODUCT').visible
 	  	@services = Product.category_group('SERVICE').visible
+	  	@all_categories = Product.visible
 	  	# Listing.joins(:product).where(:listings => {:visible => true}, :products => {:visible => true, :category => 'SERVICE'}).group(:product_id)	
 		# Listing.joins(:product).where(:listings => {:visible => true}, :products => {:visible => true, :category => 'PRODUCT'}).group(:product_id)
 	end

@@ -3,26 +3,24 @@
 	// background-image: linear-gradient(to bottom, #E4D29D, #CDAE50);
 	// @include background-image(linear-gradient(top, $yellow, $orange));
 	//@include background-image(linear-gradient(top, darken($purple, 20), $green));
-
-
-	.title-one {
-		color: $blue;
-	}
-	p {
-		font-weight: $normal;
-		color: $blue;
-	}
+	// .title-one {
+	// 	color: $blue;
+	// }
+	// p {
+	// 	font-weight: $normal;
+	// 	color: $blue;
+	// }
 
 	.member {
 	  	margin: 10px 0;
 		h3 {
 		  font-weight: $bold;
 		  font-size: 1.2em;
-		  color: $dark;
+		  color: $black;
 		  // padding-bottom: 5px;
 		}
 		h4 {
-			color: $dark;
+			color: $black;
 			font-size: 1em;
 			padding-bottom: 5px; 
 		}
@@ -80,7 +78,12 @@
 
 	}
 
-
+	.modal {
+		text-align: center;
+		.modal-header, .modal-footer {
+			background-color: #ADDBAD;
+		}
+	}
 
 }
 

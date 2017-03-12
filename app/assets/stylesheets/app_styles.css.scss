@@ -2,7 +2,8 @@
 @import "bootstrap";
 @import "bootstrap-social";
 @import "compass";
-@import url(https://fonts.googleapis.com/css?family=Exo+2:200,400,600,800|Open+Sans:300i,400,700,800);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
 
 @import "app/mixins";
 
@@ -10,6 +11,8 @@
 @import "app/base";
 @import "app/nav";
 @import "app/header";
+@import "app/welcome";
+@import "app/offering";
 @import "app/about";
 @import "app/team";
 @import "app/listing";

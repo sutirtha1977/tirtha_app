@@ -4,7 +4,7 @@
   	// background-color:	#0A0A13;
    	// background-color: #E4D29D;
   	// background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
-  	// @include background-image(linear-gradient(top, $blue, $light));
+  	// @include background-image(linear-gradient(top, $blue, $white));
   	// border-top: 20px solid $blue;
 
 	.title-one {
@@ -33,7 +33,7 @@
 			// -o-transition: all 0.9s ease 0s;
 			h2 {
 				padding-top: 10px;
-				color: $dark;
+				color: $black;
 				font-weight: $bold;
 			}
 			img {
@@ -53,7 +53,7 @@
 			}
 			&:hover {
 				background-color: #fc7700;
-				h2 { color: $light; font-weight: $bold;}
+				h2 { color: $white; font-weight: $bold;}
 				img {
 					color:#fc7700;
 					// -moz-transform: scale(1.1) rotate(360deg);
