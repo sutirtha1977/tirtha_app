@@ -16,4 +16,3 @@
 //= require turbolinks
 //= require jquery.turbolinks
 //= require devise_func
-//= require jquery.backstretch
