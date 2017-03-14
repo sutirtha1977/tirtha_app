@@ -1,4 +1,4 @@
-#service, #product {
+#service, #product {	
 	ul.cat-s { 
 		margin: 30px 0;
 		li a {
@@ -34,8 +34,7 @@
 			}
 		}
 	}
-	
-	#service-list .box { 
+	#service-list,#product-list .box { 
 		margin-bottom: 30px;
 		h5 {
 		    border: 1px solid #ddd;

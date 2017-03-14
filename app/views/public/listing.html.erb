@@ -5,6 +5,8 @@
                 <h2 class="title-one"><%= @listing.first.product.name %></h2>
             </div>
         </div>
+    </div>
+    <div class="container">
 		<div class="row">
 			<% @listing.each do |list| %>
 			<div class="col-sm-6 col-md-4">
@@ -20,6 +22,5 @@
 			</div>
 			<% end %>
 		</div> 
-
 	</div>
 </div>

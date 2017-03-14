@@ -30,11 +30,11 @@ private
 	  	@listings_service = Listing.joins(:product)
 	  						.select('listings.*,products.name as cat_name')
 	  						.where(:listings => {:visible => true}, :products => {:visible => true, :category => 'SERVICE'})
-	  						.group(:product_id,:position)
+	  						# .group(:product_id,:position)
 	  	@listings_product = Listing.joins(:product)
 	  						.select('listings.*,products.name as cat_name')
 	  						.where(:listings => {:visible => true}, :products => {:visible => true, :category => 'PRODUCT'})
-	  						.group(:product_id,:position)
+	  						# .group(:product_id,:position)
 	  	# Listing.joins(:product).where(:listings => {:visible => true}, :products => {:visible => true, :category => 'SERVICE'}).group(:product_id,:position)	
 		# Listing.joins(:product).where(:listings => {:visible => true}, :products => {:visible => true, :category => 'PRODUCT'}).group(:product_id)
 	end
