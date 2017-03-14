@@ -32,6 +32,7 @@ ActiveRecord::Schema.define(version: 20170313021106) do
     t.decimal  "orig_price", precision: 12, scale: 2, default: "0.0"
     t.decimal  "curr_price", precision: 12, scale: 2, default: "0.0"
     t.string   "image_loc"
+    t.integer  "position"
     t.datetime "created_at",                                          null: false
     t.datetime "updated_at",                                          null: false
     t.index ["product_id"], name: "index_listings_on_product_id"
@@ -42,6 +43,7 @@ ActiveRecord::Schema.define(version: 20170313021106) do
     t.text     "description"
     t.string   "category"
     t.string   "icon_path"
+    t.integer  "position"
     t.boolean  "visible",     default: false
     t.datetime "created_at",                  null: false
     t.datetime "updated_at",                  null: false

@@ -4,7 +4,10 @@
         <div class="col-sm-6" style="padding-bottom: 10px;">
             <%= f.text_field(:name, class: 'text-cp form-control', placeholder: 'Listing Name') %>
         </div>
-        <div class="col-sm-6 text-danger" style="padding-bottom: 10px;">
+        <div class="col-sm-3" style="padding-bottom: 10px;">
+            <%= f.select(:position, 1..@listing_count, {class: 'form-control'}) %> (position)
+        </div>
+        <div class="col-sm-3 text-danger" style="padding-bottom: 10px;">
             <%= f.select(:visible, [ ["Visible", true], ["Invisible", false]], {}, {class: 'form-control'}) %>
         </div>
         <div class="col-sm-12" style="padding-bottom: 10px;">

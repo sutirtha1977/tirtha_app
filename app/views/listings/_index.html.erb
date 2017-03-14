@@ -1,5 +1,6 @@
 <% @listings.each do |listing| %>
 <tr>
+    <td><%= listing.position %></td>
      <td>
       <%= listing.name %>
       <% if listing.visible %>

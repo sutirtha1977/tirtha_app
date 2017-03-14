@@ -1,5 +1,6 @@
 <% @products.each do |product| %>
 <tr> 
+    <td><%= product.position %></td>
     <td>
         <%= product.name %>
         <% if product.visible %>

@@ -1,4 +1,5 @@
 class Listing < ApplicationRecord
+	acts_as_list :scope => :product
 	belongs_to :product
 
 	scope :visible, lambda { where(:visible => true) }

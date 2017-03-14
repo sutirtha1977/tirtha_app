@@ -1,4 +1,6 @@
 class Product < ApplicationRecord
+	acts_as_list
+	
 	has_many :listings, :dependent => :destroy
 
 	scope :visible, lambda { where(:visible => true) }

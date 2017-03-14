@@ -104,6 +104,7 @@ $(function() {
                 null,
                 null,
                 null,
+                null,
                 { "orderable": false },
                 { "orderable": false }
             ]
@@ -118,6 +119,7 @@ $(function() {
         $('#dataTables-listing').DataTable({
             responsive: true,
             "columns": [
+                null,
                 null,
                 null,
                 null,

@@ -2,6 +2,7 @@ class ProductsController < ApplicationController
   layout 'admin'
 
   before_action :confirm_logged_in
+  before_action :set_product_count, :only => [:new, :create, :edit, :update]
 
   def index
     @products = Product.sorted
@@ -64,6 +65,14 @@ class ProductsController < ApplicationController
 private
 
   def product_params
-    params.require(:product).permit(:name, :description, :category, :icon_path, :visible)
+    params.require(:product).permit(:name, :description, :category, :icon_path, :visible, :position)
   end
+
+  def set_product_count
+    @product_count = Product.count
+    if params[:action] == 'new' || params[:action] == 'create'
+      @product_count += 1
+    end
+  end
+
 end

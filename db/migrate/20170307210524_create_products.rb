@@ -5,8 +5,9 @@ class CreateProducts < ActiveRecord::Migration[5.0]
     	t.text 		:description
     	t.string 	:category
     	t.string	:icon_path
+      t.integer :position
     	t.boolean 	:visible, default: false
-      	t.timestamps
+      t.timestamps
     end
   end
 end

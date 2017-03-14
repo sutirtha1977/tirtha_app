@@ -3,6 +3,7 @@ class ListingsController < ApplicationController
 
   before_action :confirm_logged_in
   before_action :find_product
+  before_action :set_listing_count, :only => [:new, :create, :edit, :update]
 
   def index
     @listings = @product.listings.sorted
@@ -67,10 +68,17 @@ private
 
   def listing_params
     params.require(:listing).permit(:product_id, :name, 
-              :short_desc, :long_desc, :visible, :orig_price, :curr_price, :image_loc)
+              :short_desc, :long_desc, :visible, :orig_price, :curr_price, :image_loc, :position)
   end
 
   def find_product
     @product = Product.find(params[:product_id])
+  end
+
+  def set_listing_count
+    @listing_count = @product.listings.count
+    if params[:action] == 'new' || params[:action] == 'create'
+      @listing_count += 1
+    end
   end
 end
