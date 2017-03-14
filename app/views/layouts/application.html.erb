@@ -18,7 +18,15 @@
 
     <%= render 'layouts/app/navigation' %> <!-- navigation -->
     <div class="main">
+      <% if devise_controller? %>
+        <div class="fullheight" id="devise">
+          <div class="row">
+              <%= yield %> <!-- main content -->
+          </div>
+        </div>
+      <% else %>
         <%= yield %> <!-- main content -->
+      <% end %>
     </div>
 	<%= render 'layouts/app/footer' %> <!-- footer -->
   </body>
