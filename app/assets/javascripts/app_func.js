@@ -30,7 +30,7 @@ $(function() {
 
 
         /************************************ 
-        isotope start 
+        isotope gallery start 
         ************************************/
         var $gallery = $('.gallery').isotope({
           // options
@@ -42,7 +42,66 @@ $(function() {
             $gallery.isotope('layout');
         })
         /************************************ 
-        isotope end 
+        isotope gallery end 
+        ************************************/
+        /************************************ 
+        isotope services start 
+        ************************************/
+        var $container_s = $('#service-list');
+        $container_s.isotope({
+            filter: '* , all',
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+        });
+        $('.cat-s a').click(function() {
+            $('.cat-s .active').removeClass('active');
+            $(this).addClass('active');
+            var selector = $(this).attr('data-filter');
+            $container_s.isotope({
+                filter: selector,
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
+            return false;
+        });
+        /************************************ 
+        isotope services end 
+        ************************************/
+
+        /************************************ 
+        isotope products start 
+        ************************************/
+        var $container_p = $('#product-list');
+        $container_p.isotope({
+            filter: '* , all',
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+        });
+        $('.cat-p a').click(function() {
+            $('.cat-p .active').removeClass('active');
+            $(this).addClass('active');
+            var selector = $(this).attr('data-filter');
+            $container_p.isotope({
+                filter: selector,
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
+            return false;
+        });
+        /************************************ 
+        isotope products end 
         ************************************/
 
         /************************************ 
@@ -52,6 +111,22 @@ $(function() {
         /************************************ 
         tool tip end 
         ************************************/
+
+        /************************************ 
+        listings equal height start 
+        ************************************/
+        var heights = $(".single-list").map(function() {
+            return $(this).height();
+        }).get(),
+
+        maxHeight = Math.max.apply(null, heights);
+
+        $(".single-list").height(maxHeight); 
+ 
+        /************************************ 
+        listings equal height end 
+        ************************************/
+
 
         /************************************ 
         fullheight start 
@@ -64,24 +139,13 @@ $(function() {
         $(window).resize(function() {
             var wheight = $(window).height(); //get height of the window
             $('.fullheight').css('height', wheight);
+            // $(".home-listing").height(maxHeight); 
         }) //on resize
         /************************************ 
         fullheight end 
         ************************************/
 
-        /************************************ 
-        listings equal height start 
-        ************************************/
-        var heights = $(".single-list").map(function() {
-            return $(this).height();
-        }).get(),
 
-        maxHeight = Math.max.apply(null, heights);
-
-        $(".single-list").height(maxHeight);    
-        /************************************ 
-        listings equal height end 
-        ************************************/
 
     });
 

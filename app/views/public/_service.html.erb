@@ -1,5 +1,34 @@
-<div class="row text-center">
-    <div class="col-sm-8 col-sm-offset-2">
-        <h2 class="title-one">Services Listings</h2>
+<div class="container">
+    <div class="section-header">
+        <h2 class="title-one">Services</h2>
     </div>
+	 <div class="text-center">
+	    <ul class="list-inline cat-s"> <!-- Portfolio Filter Categories -->
+	    	<li><a href="javascript:void(0)" data-filter="*" class="active">All</a></li>
+	    	<% @services.each do |service| %>
+	        <li><%= link_to service.name, "javascript:void(0)", "data-filter": "." + service.name.downcase %></li>
+	        <% end %>
+	    </ul><!-- End Portfolio Filter Categories -->
+	</div>
 </div>
+<div class="container">
+	<div id="service-list" class="row text-center">
+		<% @listings_service.each do |service| %>
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 <%= service.cat_name.downcase %>">
+            <div class="box"> 
+                <div class="hover-bg">
+<!--                     <div class="hover-text off">
+                        <a title="Logo Identity Design" href="img/portfolio/01@2x.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/01@2x.jpg">
+                            <i class="fa fa-expand"></i>
+                        </a>
+                        <a href="#"><i class="fa fa-chain"></i></a>
+                    </div>  -->
+                    <%= list_service_for_home(service )%>
+                </div>
+                <h5><%= service.name %><br><small><em><%= service.cat_name %></em></small></h5>
+            </div>
+        </div>
+        <% end %>
+	</div>
+</div>
+

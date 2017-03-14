@@ -27,7 +27,16 @@ private
 	  	@products = Product.category_group('PRODUCT').visible
 	  	@services = Product.category_group('SERVICE').visible
 	  	@all_categories = Product.visible
-	  	# Listing.joins(:product).where(:listings => {:visible => true}, :products => {:visible => true, :category => 'SERVICE'}).group(:product_id)	
+	  	@listings_service = Listing.joins(:product)
+	  						.select('listings.*,products.name as cat_name')
+	  						.where(:listings => {:visible => true}, :products => {:visible => true, :category => 'SERVICE'})
+	  						.group(:product_id,:position)
+	  	@listings_product = Listing.joins(:product)
+	  						.select('listings.*,products.name as cat_name')
+	  						.where(:listings => {:visible => true}, :products => {:visible => true, :category => 'PRODUCT'})
+	  						.group(:product_id,:position)
+	  	# Listing.joins(:product).where(:listings => {:visible => true}, :products => {:visible => true, :category => 'SERVICE'}).group(:product_id,:position)	
 		# Listing.joins(:product).where(:listings => {:visible => true}, :products => {:visible => true, :category => 'PRODUCT'}).group(:product_id)
 	end
 end
+
