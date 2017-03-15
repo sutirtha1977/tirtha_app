@@ -19,6 +19,11 @@ class PublicController < ApplicationController
 		@listing = Listing.where(:visible => true, :product_id => params[:product_id])
 	end
 
+	def listing_detail
+		@list_details = Listing.find(params[:id])
+		# @list_details = Listing.where(:visible => true, :product_id => params[:product_id])
+	end
+
 	def gallery	
 	end
 

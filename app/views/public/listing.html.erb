@@ -16,7 +16,7 @@
 	            </div>
 	            <div class="bottom">
 	                <a href="#" class="btn btn-success btn-xs">Book Now</a>
-	                <a href="#" class="btn btn-primary btn-xs pull-right">View Details</a>
+	                <%= link_to "View Details", public_listing_detail_path(:id => list.id) , class: "btn btn-primary btn-xs pull-right" %>
 	            </div>
 	        </div>
 			<% end %>

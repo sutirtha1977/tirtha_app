@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'public/about'
   get 'public/team'
   get 'public/listing'
+  get 'public/listing_detail'
   get 'public/gallery'
 
 
