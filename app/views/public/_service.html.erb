@@ -12,23 +12,19 @@
 	</div>
 </div>
 <div class="container">
-	<div id="service-list" class="row text-center">
+	<div id="service-list" class="row">
 		<% @listings_service.each do |service| %>
-        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 <%= service.cat_name.downcase %>">
-            <div class="box"> 
-                <div class="hover-bg">
-<!--                     <div class="hover-text off">
-                        <a title="Logo Identity Design" href="img/portfolio/01@2x.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/01@2x.jpg">
-                            <i class="fa fa-expand"></i>
-                        </a>
-                        <a href="#"><i class="fa fa-chain"></i></a>
-                    </div>  -->
-                    <%= list_service_for_home(service )%>
-                </div>
-                <h5><%= service.name %><br><small><em><%= service.cat_name %></em></small></h5>
+        <div class="box col-xs-12 col-sm-6 col-md-3 <%= service.cat_name.downcase %>">
+            <div class="list-image">
+                <%= list_service_for_home(service )%>
+                <h5><span><%= service.name %></span></h5>
+            </div>
+            <div class="bottom">
+
+                    <a href="#" class="btn btn-success btn-xs">Book Now</a>
+                    <a href="#" class="btn btn-primary btn-xs pull-right">View Details</a>
             </div>
         </div>
         <% end %>
 	</div>
 </div>
-

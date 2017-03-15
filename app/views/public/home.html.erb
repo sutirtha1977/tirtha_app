@@ -1,28 +1,26 @@
 <div class="container-fluid">
 	<%= render 'intro' %> 
 </div>
-<%= render 'layouts/messages' %> <!-- messages -->
+<%= render 'layouts/messages' %> <!-- messages to be modified -->
 
 <div class="page" id="welcome">
-	<div class="container">
-		<%= render 'welcome' %>
-	</div>
+	<%= render 'welcome' %>
 </div> <!-- welcome -->
 
 <div class="page" id="offering">
 	<%= render 'offering' %>
 </div> <!-- offering -->
 
+<% if @services.count > 0 %>
 <div class="page" id="service">
-	<div class="container">
-		<%= render 'service' %>
-	</div>
+	<%= render 'service' %>
 </div> <!-- service -->
+<% end %>
 
+<% if @products.count > 0 %>
 <div class="page" id="product">
-	<div class="container">
-		<%= render 'product' %>
-	</div>
+	<%= render 'product' %>
 </div> <!-- product -->
+<% end %>
 
 
