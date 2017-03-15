@@ -9,9 +9,9 @@ module ListingsHelper
 
 	def image_for_home(listing)
 		if File.exist? Rails.root.join('app', 'assets', 'images', listing.image_loc)
-			image_tag(listing.image_loc, class: "img-responsive", size: "242x200")
+			image_tag(listing.image_loc, class: "img-responsive")
 		else
-			image_tag(File.join("listings", "om.jpg"), class: "img-responsive", size: "242x200")
+			image_tag(File.join("listings", "om.jpg"), class: "img-responsive")
 		end	
 	end
 

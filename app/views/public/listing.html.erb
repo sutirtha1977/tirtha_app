@@ -1,26 +1,26 @@
 <div class="page" id="listing">
-	<div class="container">
-        <div class="row text-center">
-            <div class="col-sm-8 col-sm-offset-2">
-                <h2 class="title-one"><%= @listing.first.product.name %></h2>
-            </div>
+    <div class="container">
+        <div class="section-header">
+            <h2 class="title-one"><%= @listing.first.product.name %></h2>
         </div>
     </div>
+
     <div class="container">
-		<div class="row">
+		<div id="listing-list" class="row">
 			<% @listing.each do |list| %>
-			<div class="col-sm-6 col-md-4">
-				<div class="single-list">
-					<%= image_for_home(list) %>
-					<h2><%= list.name %></h2>
-					<div class="list-content">
-						<p><%= list.short_desc %></p>
-					</div>
-					<a href="#" class="btn btn-success">Book Now</a>
-					<a href="#" class="btn btn-primary pull-right">View Details</a>
-				</div>
-			</div>
+	        <div class="box col-xs-12 col-sm-6 col-md-3">
+	            <div class="list-image">
+	                <%= image_for_home(list) %>
+	                <h5><span><%= list.name %></span></h5>
+	                <p><span><i>INR <%= list.curr_price.round %></i></span></p>
+	            </div>
+	            <div class="bottom">
+	                <a href="#" class="btn btn-success btn-xs">Book Now</a>
+	                <a href="#" class="btn btn-primary btn-xs pull-right">View Details</a>
+	            </div>
+	        </div>
 			<% end %>
 		</div> 
 	</div>
 </div>
+

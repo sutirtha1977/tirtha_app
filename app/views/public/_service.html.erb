@@ -3,12 +3,12 @@
         <h2 class="title-one">Services</h2>
     </div>
 	 <div class="text-center">
-	    <ul class="list-inline cat-s"> <!-- Portfolio Filter Categories -->
+	    <ul class="list-inline cat-s"> 
 	    	<li><a href="javascript:void(0)" data-filter="*" class="active">All</a></li>
 	    	<% @services.each do |service| %>
 	        <li><%= link_to service.name, "javascript:void(0)", "data-filter": "." + service.name.downcase %></li>
 	        <% end %>
-	    </ul><!-- End Portfolio Filter Categories -->
+	    </ul>
 	</div>
 </div>
 <div class="container">
@@ -17,12 +17,12 @@
         <div class="box col-xs-12 col-sm-6 col-md-3 <%= service.cat_name.downcase %>">
             <div class="list-image">
                 <%= list_service_for_home(service )%>
-                <h5><span><%= service.name %></span></h5>
+                <h5><span><%= service.name %></span></h3>
+                <p><span><i>INR <%= service.curr_price.round %></i></span></p>
             </div>
             <div class="bottom">
-
-                    <a href="#" class="btn btn-success btn-xs">Book Now</a>
-                    <a href="#" class="btn btn-primary btn-xs pull-right">View Details</a>
+                <a href="#" class="btn btn-success btn-xs">Book Now</a>
+                <a href="#" class="btn btn-primary btn-xs pull-right">View Details</a>
             </div>
         </div>
         <% end %>

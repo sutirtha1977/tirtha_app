@@ -3,29 +3,26 @@
         <h2 class="title-one">Products</h2>
     </div>
 	 <div class="text-center">
-	    <ul class="list-inline cat-p"> <!-- Portfolio Filter Categories -->
+	    <ul class="list-inline cat-p">
 	    	<li><a href="javascript:void(0)" data-filter="*" class="active">All</a></li>
 	    	<% @products.each do |product| %>
 	        <li><%= link_to product.name, "javascript:void(0)", "data-filter": "." + product.name.downcase %></li>
 	        <% end %>
-	    </ul><!-- End Portfolio Filter Categories -->
+	    </ul>
 	</div>
 </div>
 <div class="container">
-	<div id="product-list" class="row text-center">
+	<div id="product-list" class="row">
 		<% @listings_product.each do |product| %>
-        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 <%= product.cat_name.downcase %>">
-            <div class="box"> 
-                <div class="hover-bg">
-<!--                     <div class="hover-text off">
-                        <a title="Logo Identity Design" href="img/portfolio/01@2x.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/01@2x.jpg">
-                            <i class="fa fa-expand"></i>
-                        </a>
-                        <a href="#"><i class="fa fa-chain"></i></a>
-                    </div>  -->
-                    <%= list_product_for_home(product )%>
-                </div>
-                <h5><%= product.name %><br><small><em><%= product.cat_name %></em></small></h5>
+        <div class="box col-xs-12 col-sm-6 col-md-3 <%= product.cat_name.downcase %>">
+            <div class="list-image">
+                <%= list_product_for_home(product )%>
+                <h5><span><%= product.name %></span></h5>
+                <p><span><i>INR <%= product.curr_price.round %></i></span></p>
+            </div>
+            <div class="bottom">
+                <a href="#" class="btn btn-success btn-xs">Book Now</a>
+                <a href="#" class="btn btn-primary btn-xs pull-right">View Details</a>
             </div>
         </div>
         <% end %>

@@ -47,7 +47,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/childrenhoroscope.jpg",
-	position: 1 
+	position: 1,
+	curr_price: 1000.00
 	})
 
 product.listings.create({
@@ -61,7 +62,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/consultapandit.jpg",
-	position: 2
+	position: 2,
+	curr_price: 1000.00
 	})
 
 product.listings.create({
@@ -75,7 +77,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/familyandrelationshoroscope.jpg",
-	position: 3
+	position: 3,
+	curr_price: 1000.00
 	})
 
 product.listings.create({
@@ -89,7 +92,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/fullvedichoroscopepackage.jpg",
-	position: 4
+	position: 4,
+	curr_price: 1000.00
 	})
 
 product.listings.create({
@@ -103,7 +107,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/gemstoneconsultation.jpg",
-	position: 5
+	position: 5,
+	curr_price: 1000.00
 	})
 
 product.listings.create({
@@ -117,7 +122,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/healthhoroscope.jpg",
-	position: 6
+	position: 6,
+	curr_price: 1000.00
 	})
 
 product.listings.create({
@@ -131,7 +137,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/litigationhoroscope.jpg",
-	position: 7
+	position: 7,
+	curr_price: 1000.00
 	})
 
 product.listings.create({
@@ -145,7 +152,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/lovehoroscope.jpg",
-	position: 8
+	position: 8,
+	curr_price: 1000.00
 	})
 
 product.listings.create({
@@ -159,7 +167,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/marriagehoroscope.jpg",
-	position: 9
+	position: 9,
+	curr_price: 1000.00
 	})
 
 product.listings.create({
@@ -173,7 +182,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/numerology.jpg",
-	position: 10
+	position: 10,
+	curr_price: 1000.00
 	})
 
 product.listings.create({
@@ -187,7 +197,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/palmistry.jpg",
-	position: 11
+	position: 11,
+	curr_price: 1000.00
 	})
 
 product.listings.create({
@@ -201,7 +212,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/propertyhoroscope.jpg",
-	position: 12
+	position: 12,
+	curr_price: 1000.00
 	})
 
 product.listings.create({
@@ -215,7 +227,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/varshphal.jpg",
-	position: 14
+	position: 14,
+	curr_price: 1000.00
 	})
 
 puts "Product 2"
@@ -239,7 +252,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/chowki.jpg",
-	position: 1 
+	position: 1 ,
+	curr_price: 10000.00
 	})
 
 
@@ -263,7 +277,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/annaprashana.jpg",
-	position: 1 
+	position: 1 ,
+	curr_price: 10000.00
 	})
 
 product.listings.create({
@@ -277,7 +292,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/sacredthread.jpg",
-	position: 2
+	position: 2,
+	curr_price: 10000.00
 	})
 product.listings.create({
 	name: "Grihapravesh Ceremony",
@@ -290,7 +306,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/grihapravesh.jpg",
-	position: 3
+	position: 3,
+	curr_price: 10000.00
 	})
 product.listings.create({
 	name: "Marriage Ceremony",
@@ -303,7 +320,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/marriage.jpg",
-	position: 4
+	position: 4,
+	curr_price: 10000.00
 	})
 product.listings.create({
 	name: "Saraswati Puja",
@@ -316,7 +334,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/saraswatipuja.jpg",
-	position: 5
+	position: 5,
+	curr_price: 10000.00
 	})
 
 product.listings.create({
@@ -330,7 +349,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/lakshmipuja.jpg",
-	position: 6
+	position: 6,
+	curr_price: 10000.00
 	})
 product.listings.create({
 	name: "Kali Puja",
@@ -343,7 +363,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/kalipuja.jpg",
-	position: 7
+	position: 7,
+	curr_price: 10000.00
 	})
 product.listings.create({
 	name: "Durga Puja",
@@ -356,7 +377,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/durgapuja.jpg",
-	position: 8
+	position: 8,
+	curr_price: 10000.00
 	})
 product.listings.create({
 	name: "Lakshmi Narayan Puja",
@@ -369,7 +391,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/lakshminarayanpuja.jpg",
-	position: 9
+	position: 9,
+	curr_price: 10000.00
 	})
 product.listings.create({
 	name: "Satyanarayan Puja and Path",
@@ -382,7 +405,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/satyanarayan.jpg",
-	position: 10
+	position: 10,
+	curr_price: 10000.00
 	})
 product.listings.create({
 	name: "Rudrashtadhyayi Path",
@@ -395,7 +419,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/rudrashtadhyayi.jpg",
-	position: 11
+	position: 11,
+	curr_price: 10000.00
 	})
 product.listings.create({
 	name: "Bhagwad Gita Path",
@@ -408,7 +433,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/bhagwadgita.jpg",
-	position: 12
+	position: 12,
+	curr_price: 10000.00
 	})
 product.listings.create({
 	name: "DurgaSaptashati Path",
@@ -421,7 +447,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/durgasaptashati.jpg",
-	position: 13
+	position: 13,
+	curr_price: 10000.00
 	})
 product.listings.create({
 	name: "Vishnu SahasranaamStotram Path and Puja",
@@ -434,7 +461,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/vishnupath.jpg",
-	position: 14
+	position: 14,
+	curr_price: 10000.00
 	})
 
 
@@ -456,7 +484,8 @@ product.listings.create({
 	short_desc: "Industrial Vaastu is the science of designing industries or factory areas according to the principles of Vaastu Shastra. Industries with Vaastu Defects may suffer from unexplained losses and difficulties. Industrial Vaastu remedies these defects and facilitates the movement of labour, raw materials, work in progress and finished goods according to Vaastu guidelines, thereby facilitating harmony and energising properties in the industry or factory area.", 
 	visible: true,
 	image_loc: "listings/industrialvastu.jpg",
-	position: 1 
+	position: 1 ,
+	curr_price: 100000.00
 	})
 product.listings.create({
 	name: "Vastu For Home",
@@ -469,7 +498,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", 
 	visible: true,
 	image_loc: "listings/vastuforhome.jpg",
-	position: 2
+	position: 2,
+	curr_price: 100000.00
 	})
 
 puts "Creating Product END"
