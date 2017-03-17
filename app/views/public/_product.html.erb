@@ -1,30 +1,32 @@
-<div class="container">
-    <div class="section-header">
-        <h2 class="title-one">Products</h2>
-    </div>
-	 <div class="text-center">
-	    <ul class="list-inline cat-p">
-	    	<li><a href="javascript:void(0)" data-filter="*" class="active">All</a></li>
-	    	<% @products.each do |product| %>
-	        <li><%= link_to product.name, "javascript:void(0)", "data-filter": "." + product.name.downcase %></li>
-	        <% end %>
-	    </ul>
-	</div>
-</div>
-<div class="container">
-	<div id="product-list" class="row">
-		<% @listings_product.each do |product| %>
-        <div class="box col-xs-12 col-sm-6 col-md-3 <%= product.cat_name.downcase %>">
-            <div class="list-image">
-                <%= list_product_for_home(product )%>
-                <h5><span><%= product.name %></span></h5>
-                <p><span><i>INR <%= product.curr_price.round %></i></span></p>
-            </div>
-            <div class="bottom">
-                <a href="#" class="btn btn-success btn-xs">Book Now</a>
-                <%= link_to "View Details", public_listing_detail_path(:id => product.id) , class: "btn btn-primary btn-xs pull-right" %>
-            </div>
+<div class="page" id="product">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="title-one">Products</h2>
         </div>
-        <% end %>
-	</div>
+    	 <div class="text-center">
+    	    <ul class="list-inline cat-p">
+    	    	<li><a href="javascript:void(0)" data-filter="*" class="active">All</a></li>
+    	    	<% @products.each do |product| %>
+    	        <li><%= link_to product.name, "javascript:void(0)", "data-filter": "." + product.name.downcase %></li>
+    	        <% end %>
+    	    </ul>
+    	</div>
+    </div>
+    <div class="container">
+    	<div id="product-list" class="row">
+    		<% @listings_product.each do |product| %>
+            <div class="box col-xs-12 col-sm-6 col-md-3 <%= product.cat_name.downcase %>">
+                <div class="list-image">
+                    <%= images(product.image_loc, {class: "img-responsive"}, "listing") %>
+                    <h5><span><%= product.name %></span></h5>
+                    <p><span><i>INR <%= product.curr_price.round %></i></span></p>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="btn btn-success btn-xs">Book Now</a>
+                    <%= link_to "View Details", public_listing_detail_path(:id => product.id) , class: "btn btn-primary btn-xs pull-right" %>
+                </div>
+            </div>
+            <% end %>
+    	</div>
+    </div>
 </div>

@@ -4,7 +4,7 @@
     <td><%= team.position %></td> 
     <td>
         <%= team.name %> 
-        <% if check_avatar(team) %>
+        <% if check_image(team.avatar_loc) %>
              <i class="fa fa-camera fa-fw" aria-hidden="true"></i>
         <% end %>
     </td>

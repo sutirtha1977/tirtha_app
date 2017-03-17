@@ -13,13 +13,12 @@
 			</ol>
         </div>
     </div>
-
     <div class="container">
 		<div id="listing-list" class="row">
 			<% @listing.each do |list| %>
 	        <div class="box col-xs-12 col-sm-6 col-md-3">
 	            <div class="list-image">
-	                <%= image_for_home(list) %>
+	                <%= images(list.image_loc, {class: "img-responsive"}, "listing") %>
 	                <h5><span><%= list.name %></span></h5>
 	                <p><span><i>INR <%= list.curr_price.round %></i></span></p>
 	            </div>

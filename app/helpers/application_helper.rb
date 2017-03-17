@@ -10,6 +10,29 @@ module ApplicationHelper
 		end
 	end
 
+	def images(img_path, img_options = {}, cType)
+		case cType
+		when "team" then 
+			default = File.join("team", "default_avatar.jpg")
+		when "listing" then
+			default = File.join("listings", "om.jpg")
+		end	
+
+		if File.exist? Rails.root.join('app', 'assets', 'images', img_path)
+			image_tag(img_path, img_options)
+		else
+			image_tag(default, img_options)
+		end		
+	end
+	
+	def check_image(img_path)
+		if File.exist? Rails.root.join('app', 'assets', 'images', img_path)
+			return true
+		else
+			return false
+		end
+	end
+
 	def resource_name
 		:user
 	end
