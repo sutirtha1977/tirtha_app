@@ -40,7 +40,6 @@ ActiveRecord::Schema.define(version: 20170317231106) do
 
   create_table "order_items", force: :cascade do |t|
     t.integer  "listing_id"
-    t.integer  "user_id"
     t.integer  "order_id"
     t.decimal  "unit_price",  precision: 12, scale: 2
     t.integer  "quantity"
@@ -49,7 +48,6 @@ ActiveRecord::Schema.define(version: 20170317231106) do
     t.datetime "updated_at",                           null: false
     t.index ["listing_id"], name: "index_order_items_on_listing_id"
     t.index ["order_id"], name: "index_order_items_on_order_id"
-    t.index ["user_id"], name: "index_order_items_on_user_id"
   end
 
   create_table "order_statuses", force: :cascade do |t|
@@ -59,6 +57,7 @@ ActiveRecord::Schema.define(version: 20170317231106) do
   end
 
   create_table "orders", force: :cascade do |t|
+    t.integer  "user_id"
     t.decimal  "subtotal",        precision: 12, scale: 2
     t.decimal  "tax",             precision: 12, scale: 2
     t.decimal  "shipping",        precision: 12, scale: 2
@@ -67,6 +66,7 @@ ActiveRecord::Schema.define(version: 20170317231106) do
     t.datetime "created_at",                               null: false
     t.datetime "updated_at",                               null: false
     t.index ["order_status_id"], name: "index_orders_on_order_status_id"
+    t.index ["user_id"], name: "index_orders_on_user_id"
   end
 
   create_table "products", force: :cascade do |t|

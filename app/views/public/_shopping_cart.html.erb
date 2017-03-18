@@ -32,7 +32,7 @@
         </thead>
         <tbody>
           <% @order_items.each do |order_item| %>
-            <%= render 'cart_row', listing: order_item.listing, order_item: order_item, show_total: true %>
+            <%= render 'public/cart_row', listing: order_item.listing, order_item: order_item, show_total: true %>
            <% end %>
         </tbody>
         <tfoot>

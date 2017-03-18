@@ -1,17 +1,22 @@
 class OrderItemsController < ApplicationController
   def create
     @order = current_order
-    @order_item = @order.order_items.new(order_item_params)
-    @order.save
-    session[:order_id] = @order.id
+    if !@order.order_items.where(listing_id: params[:order_item][:listing_id]).exists?
+      @order_item = @order.order_items.new(order_item_params)
+      @order.user_id = params[:order_item][:user_id]
+      @order.save
+      session[:order_id] = @order.id
+    # else
+    #   render 'create'
+    end
   end
 
-  def update
-    @order = current_order
-    @order_item = @order.order_items.find(params[:id])
-    @order_item.update_attributes(order_item_params)
-    @order_items = @order.order_items
-  end
+  # def update
+  #   @order = current_order
+  #   @order_item = @order.order_items.find(params[:id])
+  #   @order_item.update_attributes(order_item_params)
+  #   @order_items = @order.order_items
+  # end
 
   def destroy
     @order = current_order
@@ -22,6 +27,6 @@ class OrderItemsController < ApplicationController
   
 private
   def order_item_params
-    params.require(:order_item).permit(:quantity, :listing_id, :user_id)
+    params.require(:order_item).permit(:quantity, :listing_id)
   end
 end

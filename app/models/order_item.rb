@@ -1,6 +1,5 @@
 class OrderItem < ApplicationRecord
   belongs_to :listing
-  belongs_to :user
   belongs_to :order
 
   validates :quantity, presence: true, numericality: { only_integer: true, greater_than: 0 }

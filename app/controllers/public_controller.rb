@@ -33,7 +33,9 @@ class PublicController < ApplicationController
 
 private
 	def get_menu_data
-		@order_item = current_order.order_items.new
+		if user_signed_in?
+			@order_item = current_order.order_items.new
+		end
 	  	@products = Product.category_group('PRODUCT').visible
 	  	@services = Product.category_group('SERVICE').visible
 	  	@all_categories = Product.visible

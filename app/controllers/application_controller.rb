@@ -11,7 +11,11 @@ class ApplicationController < ActionController::Base
     if !session[:order_id].nil?
       Order.find(session[:order_id])
     else
-      Order.new
+      if Order.where(user_id: current_user.id).exists?
+        Order.find_by_user_id(current_user.id)
+      else
+        Order.new
+      end 
     end
   end
 
@@ -31,13 +35,5 @@ private
       # redirect_to prevents requested action from running
     end
   end
-
-  # def layout_by_resource
-  #   if devise_controller?
-  #     "devise"
-  #   else
-  #     "application"
-  #   end
-  # end
   
 end

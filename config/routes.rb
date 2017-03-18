@@ -16,7 +16,7 @@ Rails.application.routes.draw do
   get 'public/cart'
 
   # resource :cart, only: [:show]
-  resources :order_items, only: [:create, :update, :destroy]
+  resources :order_items, only: [:create, :destroy]
 
   resources :admin_users, :except => [:show] do
     member do
