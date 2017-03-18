@@ -13,7 +13,10 @@ Rails.application.routes.draw do
   get 'public/listing'
   get 'public/listing_detail'
   get 'public/gallery'
+  get 'public/cart'
 
+  # resource :cart, only: [:show]
+  resources :order_items, only: [:create, :update, :destroy]
 
   resources :admin_users, :except => [:show] do
     member do

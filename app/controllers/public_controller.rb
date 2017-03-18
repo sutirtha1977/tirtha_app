@@ -21,14 +21,19 @@ class PublicController < ApplicationController
 
 	def listing_detail
 		@list_details = Listing.find(params[:id])
-		# @list_details = Listing.where(:visible => true, :product_id => params[:product_id])
 	end
 
 	def gallery	
 	end
 
+	def cart
+		@order_items = current_order.order_items
+		@order = current_order
+	end
+
 private
 	def get_menu_data
+		@order_item = current_order.order_items.new
 	  	@products = Product.category_group('PRODUCT').visible
 	  	@services = Product.category_group('SERVICE').visible
 	  	@all_categories = Product.visible

@@ -1,6 +1,7 @@
 class Listing < ApplicationRecord
 	acts_as_list :scope => :product
 	belongs_to :product
+	has_many :order_items
 
 	scope :visible, lambda { where(:visible => true) }
 	scope :invisible, lambda { where(:visible => false) }

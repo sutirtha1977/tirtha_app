@@ -19,14 +19,26 @@
                 <div class="list-image">
                     <%= images(service.image_loc, {class: "img-responsive"}, "listing") %>
                     <h5><span><%= service.name %></span></h5>
-                    <p><span><i>INR <%= service.curr_price.round %></i></span></p>
+                    <p><span><i><%= number_to_currency(service.curr_price, :unit => "Rs. ") %></i></span></p>
                 </div>
                 <div class="bottom">
-                    <a href="#" class="btn btn-success btn-xs">Book Now</a>
-                    <%= link_to "View Details", public_listing_detail_path(:id => service.id) , class: "btn btn-primary btn-xs pull-right" %>
+                    <!-- <a href="#" class="btn btn-success btn-xs">Book Now</a> -->
+                    <% if user_signed_in? %>
+                        <%= form_for @order_item, remote: true do |f| %>
+                            <%= f.hidden_field :listing_id, value: service.id %>
+                            <%= f.hidden_field :user_id, value: current_user.id %>
+                            <%= f.hidden_field :quantity, value: 1 %>
+                            <%= f.submit "Add to Cart", class: "btn btn-success btn-xs" %>
+                        
+                        <%= link_to "View Details", public_listing_detail_path(:id => service.id) , class: "btn btn-primary btn-xs pull-right" %>
+                        <% end %>
+                    <% else %>
+                        <%= link_to "View Details", public_listing_detail_path(:id => service.id) , class: "btn btn-primary btn-xs btn-block" %>
+                    <% end %>
                 </div>
             </div>
             <% end %>
     	</div>
     </div>
 </div>
+

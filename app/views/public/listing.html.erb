@@ -20,7 +20,7 @@
 	            <div class="list-image">
 	                <%= images(list.image_loc, {class: "img-responsive"}, "listing") %>
 	                <h5><span><%= list.name %></span></h5>
-	                <p><span><i>INR <%= list.curr_price.round %></i></span></p>
+	                <p><span><i><%= number_to_currency(list.curr_price, :unit => "Rs. ") %></i></span></p>
 	            </div>
 	            <div class="bottom">
 	                <a href="#" class="btn btn-success btn-xs">Book Now</a>
