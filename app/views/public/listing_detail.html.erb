@@ -34,7 +34,14 @@
                                 <!-- <div class="product-stock">In Stock</div> -->
                                 <hr>
                                 <div class="btn-group cart">
-                                    <a href="#" class="btn btn-success">Book Now</a>
+                                    <% if user_signed_in? %>
+                                        <%= form_for @order_item, remote: true do |f| %>
+                                            <%= f.hidden_field :listing_id, value: @list_details.id %>
+                                            <%= f.hidden_field :user_id, value: current_user.id %>
+                                            <%= f.hidden_field :quantity, value: 1 %>
+                                            <%= f.submit "Add to Cart", class: "btn btn-success btn-xs" %>
+                                        <% end %>
+                                    <% end %>
                                 </div>
                             </div>
                         </div>

@@ -56,6 +56,9 @@ $(function() {
                 queue: false
             }
         });
+        $container_s.imagesLoaded().progress( function() {
+            $container_s.isotope('layout');
+        })
         $('.cat-s a').click(function() {
             $('.cat-s .active').removeClass('active');
             $(this).addClass('active');
@@ -87,6 +90,9 @@ $(function() {
                 queue: false
             }
         });
+        $container_p.imagesLoaded().progress( function() {
+            $container_p.isotope('layout');
+        })
         $('.cat-p a').click(function() {
             $('.cat-p .active').removeClass('active');
             $(this).addClass('active');
